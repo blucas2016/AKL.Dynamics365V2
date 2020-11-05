@@ -1,0 +1,31 @@
+2:47:41 PM	Deploying Plugins
+2:47:41 PM	Searching for plugin config in 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin\spkl\..'
+2:47:41 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin'
+2:47:41 PM	Checking assembly 'AKL.Dynamics365.Plugin.dll' for plugins
+2:47:41 PM	2 plugin(s) found!
+2:47:41 PM	Registering Plugin 'AKL.Dynamics365.Plugin' from 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin\bin\Debug\AKL.Dynamics365.Plugin.dll'
+2:52:57 PM	Downloading Plugin/Workflow Activity Metadata
+2:52:57 PM	Searching for classes in 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin\spkl\..'
+2:52:57 PM	Found Plugin Type Registration AKL.Dynamics365.Plugin.PreOperationApplicationUpdate
+2:52:57 PM	1 classes decorated with deployment attributes!
+2:54:19 PM	Deploying Plugins
+2:54:19 PM	Searching for plugin config in 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin\spkl\..'
+2:54:19 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin'
+2:54:19 PM	Checking assembly 'AKL.Dynamics365.Plugin.dll' for plugins
+2:54:19 PM	2 plugin(s) found!
+2:54:19 PM	Registering Plugin 'AKL.Dynamics365.Plugin' from 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin\bin\Debug\AKL.Dynamics365.Plugin.dll'
+2:58:40 PM	Generating early bound types
+2:58:40 PM	Searching for plugin config in 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin\spkl\..'
+2:58:40 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin'
+2:58:40 PM	Target C:\CRM\AKL6\AKL.Dynamics365\packages\spkl.1.0.431\tools
+2:58:40 PM	Running C:\CRM\AKL6\AKL.Dynamics365\packages\spkl.1.0.431\tools\..\..\Microsoft.CrmSdk.CoreTools.9.1.0.25\content\bin\coretools\CrmSvcUtil.exe /connstr:"AuthType=OAuth;
+                      AppId=51f81489-12ee-4a9e-aaae-a2591f45987d;
+                      RedirectUri=app://58145B91-0C36-4500-8554-080854F2AC97;
+                      TokenCacheStorePath=C:\Users\em12110\AppData\Roaming\spkl\TokenCache;UserName=admin@akltry7.onmicrosoft.com;Url=https://akltry7.crm6.dynamics.com;LoginPrompt=Auto" /out:"C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin\EarlyBoundTypes.cs" /namespace:"AKL.Dynamics365.Entities" /serviceContextName:"XrmSvc" /GenerateActions:"False" /codewriterfilter:"spkl.CrmSvcUtilExtensions.FilteringService,spkl.CrmSvcUtilExtensions" /codewritermessagefilter:"spkl.CrmSvcUtilExtensions.MessageFilteringService,spkl.CrmSvcUtilExtensions" /codegenerationservice:"spkl.CrmSvcUtilExtensions.CodeGenerationService, spkl.CrmSvcUtilExtensions" /metadataproviderqueryservice:"spkl.CrmSvcUtilExtensions.MetadataProviderQueryService,spkl.CrmSvcUtilExtensions"
+2:58:46 PM	Processed 1 config(s)
+3:01:13 PM	Deploying Plugins
+3:01:13 PM	Searching for plugin config in 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin\spkl\..'
+3:01:13 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin'
+3:01:13 PM	Checking assembly 'AKL.Dynamics365.Plugin.dll' for plugins
+3:01:13 PM	2 plugin(s) found!
+3:01:13 PM	Registering Plugin 'AKL.Dynamics365.Plugin' from 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin\bin\Debug\AKL.Dynamics365.Plugin.dll'

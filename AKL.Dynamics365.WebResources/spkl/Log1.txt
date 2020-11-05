@@ -1,0 +1,101 @@
+12:02:55 PM	Deploying WebResources
+12:02:55 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.WebResources'
+12:03:20 PM	Deploying WebResources
+12:03:20 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.WebResources'
+12:03:38 PM	Deploying WebResources
+12:03:38 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.WebResources'
+12:13:59 PM	Deploying WebResources
+12:13:59 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.WebResources'
+12:13:59 PM	Creating Webresource 'js\AKL_OpenProcessApp.js' -> 'bru_/js/AKL_OpenProcessApp.js'
+12:14:02 PM	Adding to solution 'AKL.Dynamics365.WebResources'
+12:19:33 PM	Deploying WebResources
+12:19:33 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.WebResources'
+12:19:34 PM	bru_/js/AKL_OpenProcessApp.js has not changed, skipping...
+12:19:34 PM	Deployed 0 webresource(s)
+12:19:34 PM	Publishing 0 webresources...
+12:19:34 PM	Publish complete.
+12:19:34 PM	Processed 1 section(s)
+12:19:34 PM	Processed 1 config(s)
+12:20:15 PM	Deploying WebResources
+12:20:15 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.WebResources'
+12:20:15 PM	Updating Webresource 'js\AKL_OpenProcessApp.js' -> 'bru_/js/AKL_OpenProcessApp.js'
+12:20:16 PM	Adding to solution 'AKL.Dynamics365.WebResources'
+12:20:27 PM	Deploying WebResources
+12:20:27 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.WebResources'
+12:20:27 PM	Updating Webresource 'js\AKL_OpenProcessApp.js' -> 'bru_/js/AKL_OpenProcessApp.js'
+12:20:27 PM	Adding to solution 'AKL.Dynamics365.WebResources'
+12:20:35 PM	Deploying WebResources
+12:20:35 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.WebResources'
+12:20:35 PM	Updating Webresource 'js\AKL_OpenProcessApp.js' -> 'bru_/js/AKL_OpenProcessApp.js'
+12:20:35 PM	Adding to solution 'AKL.Dynamics365.WebResources'
+12:20:43 PM	Deploying WebResources
+12:20:43 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.WebResources'
+12:20:44 PM	Updating Webresource 'js\AKL_OpenProcessApp.js' -> 'bru_/js/AKL_OpenProcessApp.js'
+12:20:44 PM	Adding to solution 'AKL.Dynamics365.WebResources'
+1:09:53 PM	Deploying WebResources
+1:09:53 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.WebResources'
+1:09:53 PM	bru_/js/AKL_OpenProcessApp.js has not changed, skipping...
+1:09:53 PM	Deployed 0 webresource(s)
+1:09:53 PM	Publishing 0 webresources...
+1:09:53 PM	Publish complete.
+1:09:53 PM	Processed 1 section(s)
+1:09:53 PM	Processed 1 config(s)
+1:10:13 PM	Deploying WebResources
+1:10:13 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.WebResources'
+1:10:13 PM	Updating Webresource 'js\AKL_OpenProcessApp.js' -> 'bru_/js/AKL_OpenProcessApp.js'
+1:10:14 PM	Adding to solution 'AKL.Dynamics365'
+1:11:28 PM	Deploying WebResources
+1:11:28 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.WebResources'
+1:11:29 PM	Updating Webresource 'js\AKL_OpenProcessApp.js' -> 'bru_/js/AKL_OpenProcessApp.js'
+1:11:29 PM	Adding to solution 'AKL.Dynamics365'
+1:11:37 PM	Deploying WebResources
+1:11:37 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.WebResources'
+1:11:37 PM	Updating Webresource 'js\AKL_OpenProcessApp.js' -> 'bru_/js/AKL_OpenProcessApp.js'
+1:11:37 PM	Adding to solution 'AKL.Dynamics365'
+1:11:53 PM	Deploying WebResources
+1:11:53 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.WebResources'
+1:11:53 PM	Updating Webresource 'js\AKL_OpenProcessApp.js' -> 'bru_/js/AKL_OpenProcessApp.js'
+1:11:54 PM	Adding to solution 'AKL.Dynamics365'
+1:14:25 PM	Deploying WebResources
+1:14:25 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.WebResources'
+1:14:26 PM	Updating Webresource 'js\AKL_OpenProcessApp.js' -> 'bru_/js/AKL_OpenProcessApp.js'
+1:14:26 PM	Adding to solution 'AKL.Dynamics365'
+1:14:36 PM	Deploying WebResources
+1:14:36 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.WebResources'
+1:14:36 PM	Updating Webresource 'js\AKL_OpenProcessApp.js' -> 'bru_/js/AKL_OpenProcessApp.js'
+1:14:36 PM	Adding to solution 'AKL.Dynamics365'
+1:21:19 PM	Deploying WebResources
+1:21:19 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.WebResources'
+1:21:19 PM	Updating Webresource 'js\AKL_OpenProcessApp.js' -> 'bru_/js/AKL_OpenProcessApp.js'
+1:21:20 PM	Adding to solution 'AKL.Dynamics365'
+1:21:27 PM	Deploying WebResources
+1:21:27 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.WebResources'
+1:21:28 PM	Updating Webresource 'js\AKL_OpenProcessApp.js' -> 'bru_/js/AKL_OpenProcessApp.js'
+1:21:28 PM	Adding to solution 'AKL.Dynamics365'
+1:22:10 PM	Deploying WebResources
+1:22:10 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.WebResources'
+1:22:10 PM	Updating Webresource 'js\AKL_OpenProcessApp.js' -> 'bru_/js/AKL_OpenProcessApp.js'
+1:22:11 PM	Adding to solution 'AKL.Dynamics365'
+1:23:20 PM	Deploying WebResources
+1:23:20 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.WebResources'
+1:23:20 PM	Updating Webresource 'js\AKL_OpenProcessApp.js' -> 'bru_/js/AKL_OpenProcessApp.js'
+1:23:20 PM	Adding to solution 'AKL.Dynamics365'
+1:24:09 PM	Deploying WebResources
+1:24:09 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.WebResources'
+1:24:09 PM	Updating Webresource 'js\AKL_OpenProcessApp.js' -> 'bru_/js/AKL_OpenProcessApp.js'
+1:24:09 PM	Adding to solution 'AKL.Dynamics365'
+1:25:45 PM	Deploying WebResources
+1:25:45 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.WebResources'
+1:25:45 PM	Updating Webresource 'js\AKL_OpenProcessApp.js' -> 'bru_/js/AKL_OpenProcessApp.js'
+1:25:46 PM	Adding to solution 'AKL.Dynamics365'
+1:27:18 PM	Deploying WebResources
+1:27:18 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.WebResources'
+1:27:18 PM	Updating Webresource 'js\AKL_OpenProcessApp.js' -> 'bru_/js/AKL_OpenProcessApp.js'
+1:27:18 PM	Adding to solution 'AKLDynamics365'
+1:27:19 PM	Creating Webresource 'htm\AKL_OpenProcessApp.html' -> 'bru_/htm/AKL_OpenProcessApp.html'
+1:27:20 PM	Adding to solution 'AKLDynamics365'
+1:27:20 PM	Deployed 2 webresource(s)
+1:27:20 PM	Publishing 2 webresources...
+1:27:41 PM	Publish complete.
+1:27:41 PM	Processed 1 section(s)
+1:27:41 PM	Processed 1 config(s)

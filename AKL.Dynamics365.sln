@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKL.Dynamics365.WebResources", "AKL.Dynamics365.WebResources\AKL.Dynamics365.WebResources.csproj", "{CEDFD8C4-E015-419B-B41C-10179064BA73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKL.Dynamics365.Plugin", "AKL.Dynamics365.Plugin\AKL.Dynamics365.Plugin.csproj", "{D1BBBB04-C55D-454F-A827-1FC7E44A729A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEDFD8C4-E015-419B-B41C-10179064BA73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEDFD8C4-E015-419B-B41C-10179064BA73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEDFD8C4-E015-419B-B41C-10179064BA73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEDFD8C4-E015-419B-B41C-10179064BA73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1BBBB04-C55D-454F-A827-1FC7E44A729A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1BBBB04-C55D-454F-A827-1FC7E44A729A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1BBBB04-C55D-454F-A827-1FC7E44A729A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1BBBB04-C55D-454F-A827-1FC7E44A729A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B18A6F4-C913-4602-95B8-B7BDFB86A254}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+2:04:57 PM	CrmSvcUtil : CRM Service Utility [Version 9.1.0.28]
+2:04:57 PM	© 2019 Microsoft Corporation. All rights reserved
+2:04:57 PM	
+2:04:57 PM	Loading config from 'C:\CRM\AKL6\AKL.Dynamics365\packages\Microsoft.CrmSdk.CoreTools.9.1.0.25\content\bin\coretools\spkl.crmsvcutil.config'
+2:05:04 PM	Code written to C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin\EarlyBoundTypes.cs.
+2:58:40 PM	CrmSvcUtil : CRM Service Utility [Version 9.1.0.28]
+2:58:40 PM	© 2019 Microsoft Corporation. All rights reserved
+2:58:40 PM	
+2:58:40 PM	Loading config from 'C:\CRM\AKL6\AKL.Dynamics365\packages\Microsoft.CrmSdk.CoreTools.9.1.0.25\content\bin\coretools\spkl.crmsvcutil.config'
+2:58:46 PM	Code written to C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin\EarlyBoundTypes.cs.
