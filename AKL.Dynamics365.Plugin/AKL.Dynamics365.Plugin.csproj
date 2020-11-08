@@ -70,12 +70,8 @@
     <Compile Include="PluginConstants.cs" />
     <Compile Include="PreOperationApplicationUpdate.cs" />
     <Compile Include="PostOperationInterviewProcessCreate.cs" />
-    <Compile Include="PreOperationPersonalInterviewCreate.cs" />
-    <Compile Include="PreOperationTechnicalInterviewCreate.cs" />
     <Compile Include="Presenter\InterviewProcessPresenter.cs" />
     <Compile Include="Presenter\JobApplicationPresenter.cs" />
-    <Compile Include="Presenter\PersonalInterviewPresenter.cs" />
-    <Compile Include="Presenter\TechnicalInterviewPresenter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

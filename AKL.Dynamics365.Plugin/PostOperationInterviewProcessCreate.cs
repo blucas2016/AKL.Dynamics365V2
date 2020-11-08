@@ -39,8 +39,7 @@ namespace AKL.Dynamics365.Plugin
             
             Entity entity = (Entity)context.InputParameters[target];
            
-            bru_interview_process interview_process = entity.ToEntity<bru_interview_process>();
-            Entity PostImage = context.PostEntityImages.FirstOrDefault(i => i.Key == PluginConstants.PostImage).Value;
+            bru_interview_process interview_process = entity.ToEntity<bru_interview_process>();            
 
             if (!string.Equals(interview_process.LogicalName, bru_interview_process.EntityLogicalName, StringComparison.CurrentCultureIgnoreCase)) return;
             if (!string.Equals(context.MessageName, PluginConstants.Create, StringComparison.CurrentCultureIgnoreCase)) return;

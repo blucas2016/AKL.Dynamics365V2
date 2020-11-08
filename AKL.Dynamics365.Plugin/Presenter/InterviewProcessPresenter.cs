@@ -41,13 +41,13 @@ namespace AKL.Dynamics365.Plugin.Presenter
                 {
                     var personalinterview = new bru_personalinterview();
                     personalinterview.bru_name = candidateName + " - " + "Personal Interview Interview";
-                    var x = _service.Create(personalinterview);
+                    var personalinterviewID = _service.Create(personalinterview);
                     var relationship = new Relationship("bru_bru_interview_process_bru_personalintervi");                    
                     var accountReferences = new EntityReferenceCollection();                   
                     
                     accountReferences.Add(interviewProcess.ToEntityReference());
                     
-                    _service.Associate(bru_personalinterview.EntityLogicalName, x, relationship, accountReferences);
+                    _service.Associate(bru_personalinterview.EntityLogicalName, personalinterviewID, relationship, accountReferences);
                 }
 
                 //bru_bru_interview_process_bru_technicalinterv
