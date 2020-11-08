@@ -9,53 +9,45 @@ using Microsoft.Xrm.Sdk;
 using AKL.Dynamics365.Entities;
 using AKL.Dynamics365.Plugin.Presenter;
 
-
 namespace AKL.Dynamics365.Plugin
 {
     [CrmPluginRegistration(
-           message: "Update",
-           entityLogicalName: "bru_jobapplication",
+           message: "Create",
+           entityLogicalName: "bru_technicalinterview",
            stage: StageEnum.PreOperation,
            executionMode: ExecutionModeEnum.Synchronous,
            filteringAttributes: "",
-           stepName: "PreOperationApplicationUpdate: Update of Application",
+           stepName: "PreOperationTechnicalInterviewCreate: Creation of bru_technicalinterview",
            executionOrder: 1,
            isolationModel: IsolationModeEnum.Sandbox,
-           Image1Type = ImageTypeEnum.PreImage,
-           Image1Name = "PreImage",
-           Image1Attributes = "",
-           Description = "PreOperationApplicationUpdate: Update of Application",
-           Id = "BBD3443E-F471-448C-A7E0-F6352568E7C9"
+           Description = "PreOperationTechnicalInterviewCreate: Creation of bru_technicalinterview",
+           Id = "144E6BFE-675C-42F7-A0BD-B142FCC70D90"
        )]
-    public class PreOperationApplicationUpdate : PluginBase
+    public class PreOperationTechnicalInterviewCreate : PluginBase
     {
 
-        public PreOperationApplicationUpdate() : base(typeof(PreOperationApplicationUpdate))
+        public PreOperationTechnicalInterviewCreate() : base(typeof(PreOperationTechnicalInterviewCreate))
         {
 
         }
 
         protected override void ExecuteCrmPlugin(LocalPluginContext localContext)
         {
-            if (localContext == null) throw new ArgumentNullException(nameof(localContext));
+           
             IPluginExecutionContext context = localContext.PluginExecutionContext;
             const string target = PluginConstants.Target;
-            if (!context.InputParameters.Contains(target) || !(context.InputParameters[target] is Entity)) return;
+           
             Entity entity = (Entity)context.InputParameters[target];
+            bru_technicalinterview technicalinterview = entity.ToEntity<bru_technicalinterview>();
+           
 
-            bru_jobapplication jobapplication = entity.ToEntity<bru_jobapplication>();
-
-            Entity preImage = context.PreEntityImages.FirstOrDefault(i => i.Key == PluginConstants.PreImage).Value;
-
-            if (!string.Equals(jobapplication.LogicalName, bru_jobapplication.EntityLogicalName, StringComparison.CurrentCultureIgnoreCase)) return;
-            if (!string.Equals(context.MessageName, PluginConstants.Update, StringComparison.CurrentCultureIgnoreCase)) return;
 
             try
             {
                 using (XrmSvc xrmContext = new XrmSvc(localContext.OrganizationService))
                 {
-                    var presenter = new JobApplicationPresenter(xrmContext, localContext.TracingService);
-                    presenter.BlockDoubleApplication(xrmContext, preImage);
+                    var presenter = new TechnicalInterviewPresenter(xrmContext, localContext.TracingService);
+                    presenter.GenerateName(xrmContext, technicalinterview);
                 }
             }
             catch (Exception exception)

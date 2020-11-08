@@ -1,10 +1,47 @@
-2:04:57 PM	CrmSvcUtil : CRM Service Utility [Version 9.1.0.28]
-2:04:57 PM	© 2019 Microsoft Corporation. All rights reserved
-2:04:57 PM	
-2:04:57 PM	Loading config from 'C:\CRM\AKL6\AKL.Dynamics365\packages\Microsoft.CrmSdk.CoreTools.9.1.0.25\content\bin\coretools\spkl.crmsvcutil.config'
-2:05:04 PM	Code written to C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin\EarlyBoundTypes.cs.
-2:58:40 PM	CrmSvcUtil : CRM Service Utility [Version 9.1.0.28]
-2:58:40 PM	© 2019 Microsoft Corporation. All rights reserved
-2:58:40 PM	
-2:58:40 PM	Loading config from 'C:\CRM\AKL6\AKL.Dynamics365\packages\Microsoft.CrmSdk.CoreTools.9.1.0.25\content\bin\coretools\spkl.crmsvcutil.config'
-2:58:46 PM	Code written to C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin\EarlyBoundTypes.cs.
+3:50:19 PM	CrmSvcUtil : CRM Service Utility [Version 9.1.0.52]
+3:50:19 PM	© 2020 Microsoft Corporation. All rights reserved
+3:50:19 PM	
+3:50:19 PM	Loading config from 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\packages\Microsoft.CrmSdk.CoreTools.9.1.0.49\content\bin\coretools\spkl.crmsvcutil.config'
+3:50:22 PM	CrmSvcUtil Error: 2 : Exiting program with exit code 2 due to exception : Exception details: 
+3:50:22 PM	ErrorCode: 0x80040217
+3:50:22 PM	Message: Could not find an entity with name bru_bru_jobrole_bru_interview_process_jobrole and id 00000000-0000-0000-0000-000000000000 (4004532).
+3:50:22 PM	TimeStamp: 2020-11-07T02:50:22.1592025Z
+3:50:22 PM	--
+3:50:22 PM	Exception details: 
+3:50:22 PM	ErrorCode: 0x80040217
+3:50:22 PM	Message: Could not find an entity with name bru_bru_jobrole_bru_interview_process_jobrole and id 00000000-0000-0000-0000-000000000000 (4004532).
+3:50:22 PM	TimeStamp: 2020-11-07T02:50:22.1592025Z
+3:50:22 PM	--
+3:50:22 PM	
+3:50:22 PM	CrmSvcUtil Error: 2 : ===== DETAIL ======
+3:50:22 PM	CrmSvcUtil Error: 2 : Source	: mscorlib
+3:50:22 PM	Method	: HandleReturnMessage
+3:50:22 PM	Date	: 3:50:22 PM
+3:50:22 PM	Time	: 7/11/2020
+3:50:22 PM	Error	: Could not find an entity with name bru_bru_jobrole_bru_interview_process_jobrole and id 00000000-0000-0000-0000-000000000000 (4004532).
+3:50:22 PM	Stack Trace	: Server stack trace: 
+3:50:22 PM	   at System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+3:50:22 PM	   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+3:50:22 PM	   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+3:50:22 PM	   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+3:50:22 PM	
+3:50:22 PM	Exception rethrown at [0]: 
+3:50:22 PM	   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+3:50:22 PM	   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+3:50:22 PM	   at Microsoft.Xrm.Sdk.IOrganizationService.Execute(OrganizationRequest request)
+3:50:22 PM	   at Microsoft.Xrm.Sdk.WebServiceClient.OrganizationWebProxyClient.<>c__DisplayClass40_0.<ExecuteCore>b__0()
+3:50:22 PM	   at Microsoft.Xrm.Sdk.WebServiceClient.WebProxyClient`1.ExecuteAction[TResult](Func`1 action)
+3:50:22 PM	   at Microsoft.Xrm.Sdk.WebServiceClient.OrganizationWebProxyClient.ExecuteCore(OrganizationRequest request)
+3:50:22 PM	   at Microsoft.Xrm.Sdk.WebServiceClient.OrganizationWebProxyClient.Execute(OrganizationRequest request)
+3:50:22 PM	   at spkl.CrmSvcUtilExtensions.MetadataProviderQueryService.RetrieveEntities(IOrganizationService service)
+3:50:22 PM	   at Microsoft.Crm.Services.Utility.SdkMetadataProviderService.LoadMetadata(IServiceProvider service)
+3:50:22 PM	   at Microsoft.Crm.Services.Utility.CrmSvcUtil.Run()
+3:50:22 PM	   at Microsoft.Crm.Services.Utility.CrmSvcUtil.Main(String[] args)
+3:50:22 PM	======================================================================================================================
+3:50:22 PM	
+6:00:23 PM	CrmSvcUtil : CRM Service Utility [Version 9.1.0.52]
+6:02:19 PM	CrmSvcUtil : CRM Service Utility [Version 9.1.0.52]
+6:02:19 PM	© 2020 Microsoft Corporation. All rights reserved
+6:02:19 PM	
+6:02:19 PM	Loading config from 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\packages\Microsoft.CrmSdk.CoreTools.9.1.0.49\content\bin\coretools\spkl.crmsvcutil.config'
+6:02:25 PM	Code written to C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\EarlyBoundTypes.cs.

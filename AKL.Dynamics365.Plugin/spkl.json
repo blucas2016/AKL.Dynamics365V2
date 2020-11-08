@@ -7,9 +7,9 @@
   ],
   "earlyboundtypes": [
     {
-      "entities": "account,contact,quote,bru_jobapplication",
+      "entities": "account,contact,quote,bru_jobapplication,bru_interview,bru_interview_process,bru_interviewquestion,bru_jobrole,bru_personalinterview,bru_technicalinterview ",
       "generateOptionsetEnums": true,
-      "generateGlobalOptionsets": false,
+      "generateGlobalOptionsets": true,
       "generateStateEnums": true,
       "filename": "EarlyBoundTypes.cs",
       "classNamespace": "AKL.Dynamics365.Entities",

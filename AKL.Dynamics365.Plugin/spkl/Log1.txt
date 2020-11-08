@@ -1,31 +1,295 @@
-2:47:41 PM	Deploying Plugins
-2:47:41 PM	Searching for plugin config in 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin\spkl\..'
-2:47:41 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin'
-2:47:41 PM	Checking assembly 'AKL.Dynamics365.Plugin.dll' for plugins
-2:47:41 PM	2 plugin(s) found!
-2:47:41 PM	Registering Plugin 'AKL.Dynamics365.Plugin' from 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin\bin\Debug\AKL.Dynamics365.Plugin.dll'
-2:52:57 PM	Downloading Plugin/Workflow Activity Metadata
-2:52:57 PM	Searching for classes in 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin\spkl\..'
-2:52:57 PM	Found Plugin Type Registration AKL.Dynamics365.Plugin.PreOperationApplicationUpdate
-2:52:57 PM	1 classes decorated with deployment attributes!
-2:54:19 PM	Deploying Plugins
-2:54:19 PM	Searching for plugin config in 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin\spkl\..'
-2:54:19 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin'
-2:54:19 PM	Checking assembly 'AKL.Dynamics365.Plugin.dll' for plugins
-2:54:19 PM	2 plugin(s) found!
-2:54:19 PM	Registering Plugin 'AKL.Dynamics365.Plugin' from 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin\bin\Debug\AKL.Dynamics365.Plugin.dll'
-2:58:40 PM	Generating early bound types
-2:58:40 PM	Searching for plugin config in 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin\spkl\..'
-2:58:40 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin'
-2:58:40 PM	Target C:\CRM\AKL6\AKL.Dynamics365\packages\spkl.1.0.431\tools
-2:58:40 PM	Running C:\CRM\AKL6\AKL.Dynamics365\packages\spkl.1.0.431\tools\..\..\Microsoft.CrmSdk.CoreTools.9.1.0.25\content\bin\coretools\CrmSvcUtil.exe /connstr:"AuthType=OAuth;
+3:50:18 PM	Generating early bound types
+3:50:18 PM	Searching for plugin config in 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\spkl\..'
+3:50:18 PM	Using Config 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin'
+3:50:18 PM	Target C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\packages\spkl.1.0.431\tools
+3:50:18 PM	Running C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\packages\spkl.1.0.431\tools\..\..\Microsoft.CrmSdk.CoreTools.9.1.0.49\content\bin\coretools\CrmSvcUtil.exe /connstr:"AuthType=OAuth;
                       AppId=51f81489-12ee-4a9e-aaae-a2591f45987d;
                       RedirectUri=app://58145B91-0C36-4500-8554-080854F2AC97;
-                      TokenCacheStorePath=C:\Users\em12110\AppData\Roaming\spkl\TokenCache;UserName=admin@akltry7.onmicrosoft.com;Url=https://akltry7.crm6.dynamics.com;LoginPrompt=Auto" /out:"C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin\EarlyBoundTypes.cs" /namespace:"AKL.Dynamics365.Entities" /serviceContextName:"XrmSvc" /GenerateActions:"False" /codewriterfilter:"spkl.CrmSvcUtilExtensions.FilteringService,spkl.CrmSvcUtilExtensions" /codewritermessagefilter:"spkl.CrmSvcUtilExtensions.MessageFilteringService,spkl.CrmSvcUtilExtensions" /codegenerationservice:"spkl.CrmSvcUtilExtensions.CodeGenerationService, spkl.CrmSvcUtilExtensions" /metadataproviderqueryservice:"spkl.CrmSvcUtilExtensions.MetadataProviderQueryService,spkl.CrmSvcUtilExtensions"
-2:58:46 PM	Processed 1 config(s)
-3:01:13 PM	Deploying Plugins
-3:01:13 PM	Searching for plugin config in 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin\spkl\..'
-3:01:13 PM	Using Config 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin'
-3:01:13 PM	Checking assembly 'AKL.Dynamics365.Plugin.dll' for plugins
-3:01:13 PM	2 plugin(s) found!
-3:01:13 PM	Registering Plugin 'AKL.Dynamics365.Plugin' from 'C:\CRM\AKL6\AKL.Dynamics365\AKL.Dynamics365.Plugin\bin\Debug\AKL.Dynamics365.Plugin.dll'
+                      TokenCacheStorePath=C:\Users\blucas\AppData\Roaming\spkl\TokenCache;UserName=admin@akltry7.onmicrosoft.com;Url=https://akltry7.crm6.dynamics.com;LoginPrompt=Auto" /out:"C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\EarlyBoundTypes.cs" /namespace:"AKL.Dynamics365.Entities" /serviceContextName:"XrmSvc" /GenerateActions:"False" /codewriterfilter:"spkl.CrmSvcUtilExtensions.FilteringService,spkl.CrmSvcUtilExtensions" /codewritermessagefilter:"spkl.CrmSvcUtilExtensions.MessageFilteringService,spkl.CrmSvcUtilExtensions" /codegenerationservice:"spkl.CrmSvcUtilExtensions.CodeGenerationService, spkl.CrmSvcUtilExtensions" /metadataproviderqueryservice:"spkl.CrmSvcUtilExtensions.MetadataProviderQueryService,spkl.CrmSvcUtilExtensions"
+5:56:36 PM	Deploying Plugins
+5:56:36 PM	Searching for plugin config in 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\spkl\..'
+5:56:36 PM	Using Config 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin'
+5:56:36 PM	Checking assembly 'AKL.Dynamics365.Plugin.dll' for plugins
+5:56:36 PM	3 plugin(s) found!
+5:56:36 PM	Checking for orphaned PluginTypes: 'AKL.Dynamics365.Plugin' 
+5:56:37 PM	Updating Plugin 'AKL.Dynamics365.Plugin' from 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\bin\Debug\AKL.Dynamics365.Plugin.dll'
+5:56:38 PM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationApplicationUpdate'
+5:56:39 PM	Updating Step 'PreOperationApplicationUpdate: Update of Application'
+5:56:40 PM	Updating Image 'PreImage'
+5:56:40 PM	Updating Type 'AKL.Dynamics365.Plugin.PostOperationInterviewProcessCreate'
+5:56:41 PM	Updating Step 'PostOperationInterviewProcessCreate: Create of InterviewProcess'
+5:56:42 PM	Processed 1 config(s)
+6:00:23 PM	Generating early bound types
+6:00:23 PM	Searching for plugin config in 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\spkl\..'
+6:00:23 PM	Using Config 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin'
+6:00:23 PM	Target C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\packages\spkl.1.0.431\tools
+6:00:23 PM	Running C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\packages\spkl.1.0.431\tools\..\..\Microsoft.CrmSdk.CoreTools.9.1.0.49\content\bin\coretools\CrmSvcUtil.exe /connstr:"AuthType=OAuth;
+                      AppId=51f81489-12ee-4a9e-aaae-a2591f45987d;
+                      RedirectUri=app://58145B91-0C36-4500-8554-080854F2AC97;
+                      TokenCacheStorePath=C:\Users\blucas\AppData\Roaming\spkl\TokenCache;UserName=admin@akltry7.onmicrosoft.com;Url=https://akltry7.crm6.dynamics.com;LoginPrompt=Auto" /out:"C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\EarlyBoundTypes.cs" /namespace:"AKL.Dynamics365.Entities" /serviceContextName:"XrmSvc" /GenerateActions:"False" /codewriterfilter:"spkl.CrmSvcUtilExtensions.FilteringService,spkl.CrmSvcUtilExtensions" /codewritermessagefilter:"spkl.CrmSvcUtilExtensions.MessageFilteringService,spkl.CrmSvcUtilExtensions" /codegenerationservice:"spkl.CrmSvcUtilExtensions.CodeGenerationService, spkl.CrmSvcUtilExtensions" /metadataproviderqueryservice:"spkl.CrmSvcUtilExtensions.MetadataProviderQueryService,spkl.CrmSvcUtilExtensions"
+6:00:30 PM	Processed 1 config(s)
+6:02:19 PM	Generating early bound types
+6:02:19 PM	Searching for plugin config in 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\spkl\..'
+6:02:19 PM	Using Config 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin'
+6:02:19 PM	Target C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\packages\spkl.1.0.431\tools
+6:02:19 PM	Running C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\packages\spkl.1.0.431\tools\..\..\Microsoft.CrmSdk.CoreTools.9.1.0.49\content\bin\coretools\CrmSvcUtil.exe /connstr:"AuthType=OAuth;
+                      AppId=51f81489-12ee-4a9e-aaae-a2591f45987d;
+                      RedirectUri=app://58145B91-0C36-4500-8554-080854F2AC97;
+                      TokenCacheStorePath=C:\Users\blucas\AppData\Roaming\spkl\TokenCache;UserName=admin@akltry7.onmicrosoft.com;Url=https://akltry7.crm6.dynamics.com;LoginPrompt=Auto" /out:"C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\EarlyBoundTypes.cs" /namespace:"AKL.Dynamics365.Entities" /serviceContextName:"XrmSvc" /GenerateActions:"False" /codewriterfilter:"spkl.CrmSvcUtilExtensions.FilteringService,spkl.CrmSvcUtilExtensions" /codewritermessagefilter:"spkl.CrmSvcUtilExtensions.MessageFilteringService,spkl.CrmSvcUtilExtensions" /codegenerationservice:"spkl.CrmSvcUtilExtensions.CodeGenerationService, spkl.CrmSvcUtilExtensions" /metadataproviderqueryservice:"spkl.CrmSvcUtilExtensions.MetadataProviderQueryService,spkl.CrmSvcUtilExtensions"
+6:02:25 PM	Processed 1 config(s)
+6:14:36 PM	Deploying Plugins
+6:14:36 PM	Searching for plugin config in 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\spkl\..'
+6:14:36 PM	Using Config 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin'
+6:14:36 PM	Checking assembly 'AKL.Dynamics365.Plugin.dll' for plugins
+6:14:36 PM	3 plugin(s) found!
+6:14:36 PM	Checking for orphaned PluginTypes: 'AKL.Dynamics365.Plugin' 
+6:14:36 PM	Updating Plugin 'AKL.Dynamics365.Plugin' from 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\bin\Debug\AKL.Dynamics365.Plugin.dll'
+6:14:37 PM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationApplicationUpdate'
+6:14:38 PM	Updating Step 'PreOperationApplicationUpdate: Update of Application'
+6:14:39 PM	Updating Image 'PreImage'
+6:14:39 PM	Updating Type 'AKL.Dynamics365.Plugin.PostOperationInterviewProcessCreate'
+6:14:39 PM	Updating Step 'PostOperationInterviewProcessCreate: Create of InterviewProcess'
+6:14:40 PM	Processed 1 config(s)
+6:16:48 PM	Deploying Plugins
+6:16:48 PM	Searching for plugin config in 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\spkl\..'
+6:16:48 PM	Using Config 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin'
+6:16:48 PM	Checking assembly 'AKL.Dynamics365.Plugin.dll' for plugins
+6:16:48 PM	3 plugin(s) found!
+6:16:48 PM	Checking for orphaned PluginTypes: 'AKL.Dynamics365.Plugin' 
+6:16:48 PM	Updating Plugin 'AKL.Dynamics365.Plugin' from 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\bin\Debug\AKL.Dynamics365.Plugin.dll'
+6:16:50 PM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationApplicationUpdate'
+6:16:51 PM	Updating Step 'PreOperationApplicationUpdate: Update of Application'
+6:16:52 PM	Updating Image 'PreImage'
+6:16:52 PM	Updating Type 'AKL.Dynamics365.Plugin.PostOperationInterviewProcessCreate'
+6:16:53 PM	Updating Step 'PostOperationInterviewProcessCreate: Create of InterviewProcess'
+6:16:53 PM	Processed 1 config(s)
+10:19:01 AM	Deploying Plugins
+10:19:01 AM	Searching for plugin config in 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\spkl\..'
+10:19:01 AM	Using Config 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin'
+10:19:01 AM	Checking assembly 'AKL.Dynamics365.Plugin.dll' for plugins
+10:19:01 AM	3 plugin(s) found!
+10:19:03 AM	Checking for orphaned PluginTypes: 'AKL.Dynamics365.Plugin' 
+10:19:03 AM	Updating Plugin 'AKL.Dynamics365.Plugin' from 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\bin\Debug\AKL.Dynamics365.Plugin.dll'
+10:19:06 AM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationApplicationUpdate'
+10:19:07 AM	Updating Step 'PreOperationApplicationUpdate: Update of Application'
+10:19:09 AM	Updating Image 'PreImage'
+10:19:09 AM	Updating Type 'AKL.Dynamics365.Plugin.PostOperationInterviewProcessCreate'
+10:19:10 AM	Updating Step 'PostOperationInterviewProcessCreate: Create of InterviewProcess'
+10:19:11 AM	Processed 1 config(s)
+10:37:40 AM	Deploying Plugins
+10:37:40 AM	Searching for plugin config in 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\spkl\..'
+10:37:40 AM	Using Config 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin'
+10:37:40 AM	Checking assembly 'AKL.Dynamics365.Plugin.dll' for plugins
+10:37:40 AM	3 plugin(s) found!
+10:37:40 AM	Checking for orphaned PluginTypes: 'AKL.Dynamics365.Plugin' 
+10:37:41 AM	Updating Plugin 'AKL.Dynamics365.Plugin' from 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\bin\Debug\AKL.Dynamics365.Plugin.dll'
+10:37:43 AM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationApplicationUpdate'
+10:37:43 AM	Updating Step 'PreOperationApplicationUpdate: Update of Application'
+10:37:45 AM	Updating Image 'PreImage'
+10:37:45 AM	Updating Type 'AKL.Dynamics365.Plugin.PostOperationInterviewProcessCreate'
+10:37:46 AM	Updating Step 'PostOperationInterviewProcessCreate: Create of InterviewProcess'
+10:37:47 AM	Processed 1 config(s)
+10:46:47 AM	Deploying Plugins
+10:46:47 AM	Searching for plugin config in 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\spkl\..'
+10:46:47 AM	Using Config 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin'
+10:46:47 AM	Checking assembly 'AKL.Dynamics365.Plugin.dll' for plugins
+10:46:47 AM	3 plugin(s) found!
+10:46:47 AM	Checking for orphaned PluginTypes: 'AKL.Dynamics365.Plugin' 
+10:46:47 AM	Updating Plugin 'AKL.Dynamics365.Plugin' from 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\bin\Debug\AKL.Dynamics365.Plugin.dll'
+10:46:49 AM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationApplicationUpdate'
+10:46:50 AM	Updating Step 'PreOperationApplicationUpdate: Update of Application'
+10:46:51 AM	Updating Image 'PreImage'
+10:46:51 AM	Updating Type 'AKL.Dynamics365.Plugin.PostOperationInterviewProcessCreate'
+10:46:52 AM	Updating Step 'PostOperationInterviewProcessCreate: Create of InterviewProcess'
+10:46:53 AM	Processed 1 config(s)
+10:55:09 AM	Deploying Plugins
+10:55:09 AM	Searching for plugin config in 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\spkl\..'
+10:55:09 AM	Using Config 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin'
+10:55:09 AM	Checking assembly 'AKL.Dynamics365.Plugin.dll' for plugins
+10:55:09 AM	3 plugin(s) found!
+10:55:09 AM	Checking for orphaned PluginTypes: 'AKL.Dynamics365.Plugin' 
+10:55:10 AM	Updating Plugin 'AKL.Dynamics365.Plugin' from 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\bin\Debug\AKL.Dynamics365.Plugin.dll'
+10:55:11 AM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationApplicationUpdate'
+10:55:12 AM	Updating Step 'PreOperationApplicationUpdate: Update of Application'
+10:55:13 AM	Updating Image 'PreImage'
+10:55:13 AM	Registering Type 'AKL.Dynamics365.Plugin.PostOperationInterviewProcessCreate'
+10:55:14 AM	Registering Step 'PostOperationInterviewProcessCreate: Create of InterviewProcess'
+10:55:15 AM	Processed 1 config(s)
+8:15:26 PM	Deploying Plugins
+8:15:26 PM	Searching for plugin config in 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\spkl\..'
+8:15:26 PM	Using Config 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin'
+8:15:26 PM	Checking assembly 'AKL.Dynamics365.Plugin.dll' for plugins
+8:15:26 PM	3 plugin(s) found!
+8:15:27 PM	Checking for orphaned PluginTypes: 'AKL.Dynamics365.Plugin' 
+8:15:27 PM	Updating Plugin 'AKL.Dynamics365.Plugin' from 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\bin\Debug\AKL.Dynamics365.Plugin.dll'
+8:15:29 PM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationApplicationUpdate'
+8:15:30 PM	Updating Step 'PreOperationApplicationUpdate: Update of Application'
+8:15:31 PM	Updating Image 'PreImage'
+8:15:31 PM	Updating Type 'AKL.Dynamics365.Plugin.PostOperationInterviewProcessCreate'
+8:15:32 PM	Updating Step 'PostOperationInterviewProcessCreate: Create of InterviewProcess'
+8:15:33 PM	Processed 1 config(s)
+8:15:44 PM	Deploying Plugins
+8:15:44 PM	Searching for plugin config in 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\spkl\..'
+8:15:44 PM	Using Config 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin'
+8:15:44 PM	Checking assembly 'AKL.Dynamics365.Plugin.dll' for plugins
+8:15:44 PM	3 plugin(s) found!
+8:15:44 PM	Checking for orphaned PluginTypes: 'AKL.Dynamics365.Plugin' 
+8:15:44 PM	Updating Plugin 'AKL.Dynamics365.Plugin' from 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\bin\Debug\AKL.Dynamics365.Plugin.dll'
+8:15:46 PM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationApplicationUpdate'
+8:15:46 PM	Updating Step 'PreOperationApplicationUpdate: Update of Application'
+8:15:47 PM	Updating Image 'PreImage'
+8:15:47 PM	Updating Type 'AKL.Dynamics365.Plugin.PostOperationInterviewProcessCreate'
+8:15:48 PM	Updating Step 'PostOperationInterviewProcessCreate: Create of InterviewProcess'
+8:15:49 PM	Processed 1 config(s)
+8:18:41 PM	Deploying Plugins
+8:18:41 PM	Searching for plugin config in 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\spkl\..'
+8:18:41 PM	Using Config 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin'
+8:18:41 PM	Checking assembly 'AKL.Dynamics365.Plugin.dll' for plugins
+8:18:41 PM	3 plugin(s) found!
+8:18:42 PM	Checking for orphaned PluginTypes: 'AKL.Dynamics365.Plugin' 
+8:18:42 PM	Updating Plugin 'AKL.Dynamics365.Plugin' from 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\bin\Debug\AKL.Dynamics365.Plugin.dll'
+8:18:43 PM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationApplicationUpdate'
+8:18:44 PM	Updating Step 'PreOperationApplicationUpdate: Update of Application'
+8:18:44 PM	Updating Image 'PreImage'
+8:18:45 PM	Updating Type 'AKL.Dynamics365.Plugin.PostOperationInterviewProcessCreate'
+8:18:45 PM	Updating Step 'PostOperationInterviewProcessCreate: Create of InterviewProcess'
+8:18:45 PM	Processed 1 config(s)
+9:55:09 PM	Deploying Plugins
+9:55:09 PM	Searching for plugin config in 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\spkl\..'
+9:55:09 PM	Using Config 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin'
+9:55:09 PM	Checking assembly 'AKL.Dynamics365.Plugin.dll' for plugins
+9:55:09 PM	5 plugin(s) found!
+9:55:09 PM	Checking for orphaned PluginTypes: 'AKL.Dynamics365.Plugin' 
+9:55:09 PM	Updating Plugin 'AKL.Dynamics365.Plugin' from 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\bin\Debug\AKL.Dynamics365.Plugin.dll'
+9:55:12 PM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationApplicationUpdate'
+9:55:12 PM	Updating Step 'PreOperationApplicationUpdate: Update of Application'
+9:55:13 PM	Updating Image 'PreImage'
+9:55:14 PM	Updating Type 'AKL.Dynamics365.Plugin.PostOperationInterviewProcessCreate'
+9:55:14 PM	Updating Step 'PostOperationInterviewProcessCreate: Create of InterviewProcess'
+9:55:15 PM	Registering Type 'AKL.Dynamics365.Plugin.PreOperationPersonalInterviewCreate'
+9:55:16 PM	Registering Step 'PreOperationPersonalInterviewCreate: Creation of bru_personalinterview'
+9:55:16 PM	Registering Type 'AKL.Dynamics365.Plugin.PreOperationTechnicalInterviewCreate'
+9:55:17 PM	Registering Step 'PreOperationTechnicalInterviewCreate: Creation of bru_technicalinterview'
+9:55:18 PM	Processed 1 config(s)
+10:09:31 PM	Deploying Plugins
+10:09:31 PM	Searching for plugin config in 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\spkl\..'
+10:09:32 PM	Using Config 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin'
+10:09:32 PM	Checking assembly 'AKL.Dynamics365.Plugin.dll' for plugins
+10:09:32 PM	5 plugin(s) found!
+10:09:32 PM	Checking for orphaned PluginTypes: 'AKL.Dynamics365.Plugin' 
+10:09:32 PM	Updating Plugin 'AKL.Dynamics365.Plugin' from 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\bin\Debug\AKL.Dynamics365.Plugin.dll'
+10:09:34 PM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationApplicationUpdate'
+10:09:35 PM	Updating Step 'PreOperationApplicationUpdate: Update of Application'
+10:09:35 PM	Updating Image 'PreImage'
+10:09:36 PM	Updating Type 'AKL.Dynamics365.Plugin.PostOperationInterviewProcessCreate'
+10:09:36 PM	Updating Step 'PostOperationInterviewProcessCreate: Create of InterviewProcess'
+10:09:37 PM	Registering Image 'PostImage'
+10:09:37 PM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationPersonalInterviewCreate'
+10:09:38 PM	Updating Step 'PreOperationPersonalInterviewCreate: Creation of bru_personalinterview'
+10:09:39 PM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationTechnicalInterviewCreate'
+10:09:39 PM	Updating Step 'PreOperationTechnicalInterviewCreate: Creation of bru_technicalinterview'
+10:09:40 PM	Processed 1 config(s)
+10:15:27 PM	Deploying Plugins
+10:15:27 PM	Searching for plugin config in 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\spkl\..'
+10:15:27 PM	Using Config 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin'
+10:15:27 PM	Checking assembly 'AKL.Dynamics365.Plugin.dll' for plugins
+10:15:27 PM	5 plugin(s) found!
+10:15:28 PM	Checking for orphaned PluginTypes: 'AKL.Dynamics365.Plugin' 
+10:15:28 PM	Updating Plugin 'AKL.Dynamics365.Plugin' from 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\bin\Debug\AKL.Dynamics365.Plugin.dll'
+10:15:29 PM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationApplicationUpdate'
+10:15:30 PM	Updating Step 'PreOperationApplicationUpdate: Update of Application'
+10:15:31 PM	Updating Image 'PreImage'
+10:15:31 PM	Updating Type 'AKL.Dynamics365.Plugin.PostOperationInterviewProcessCreate'
+10:15:32 PM	Updating Step 'PostOperationInterviewProcessCreate: Create of InterviewProcess'
+10:15:32 PM	Updating Image 'PostImage'
+10:15:32 PM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationPersonalInterviewCreate'
+10:15:33 PM	Updating Step 'PreOperationPersonalInterviewCreate: Creation of bru_personalinterview'
+10:15:33 PM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationTechnicalInterviewCreate'
+10:15:34 PM	Updating Step 'PreOperationTechnicalInterviewCreate: Creation of bru_technicalinterview'
+10:15:35 PM	Processed 1 config(s)
+10:16:53 PM	Deploying Plugins
+10:16:53 PM	Searching for plugin config in 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\spkl\..'
+10:16:53 PM	Using Config 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin'
+10:16:53 PM	Checking assembly 'AKL.Dynamics365.Plugin.dll' for plugins
+10:16:53 PM	5 plugin(s) found!
+10:16:53 PM	Checking for orphaned PluginTypes: 'AKL.Dynamics365.Plugin' 
+10:16:53 PM	Updating Plugin 'AKL.Dynamics365.Plugin' from 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\bin\Debug\AKL.Dynamics365.Plugin.dll'
+10:16:55 PM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationApplicationUpdate'
+10:16:55 PM	Updating Step 'PreOperationApplicationUpdate: Update of Application'
+10:16:56 PM	Updating Image 'PreImage'
+10:16:57 PM	Updating Type 'AKL.Dynamics365.Plugin.PostOperationInterviewProcessCreate'
+10:16:57 PM	Updating Step 'PostOperationInterviewProcessCreate: Create of InterviewProcess'
+10:16:58 PM	Updating Image 'PostImage'
+10:16:58 PM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationPersonalInterviewCreate'
+10:16:59 PM	Updating Step 'PreOperationPersonalInterviewCreate: Creation of bru_personalinterview'
+10:16:59 PM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationTechnicalInterviewCreate'
+10:17:00 PM	Updating Step 'PreOperationTechnicalInterviewCreate: Creation of bru_technicalinterview'
+10:17:00 PM	Processed 1 config(s)
+10:20:31 PM	Deploying Plugins
+10:20:31 PM	Searching for plugin config in 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\spkl\..'
+10:20:31 PM	Using Config 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin'
+10:20:31 PM	Checking assembly 'AKL.Dynamics365.Plugin.dll' for plugins
+10:20:31 PM	5 plugin(s) found!
+10:20:31 PM	Checking for orphaned PluginTypes: 'AKL.Dynamics365.Plugin' 
+10:20:32 PM	Updating Plugin 'AKL.Dynamics365.Plugin' from 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\bin\Debug\AKL.Dynamics365.Plugin.dll'
+10:20:33 PM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationApplicationUpdate'
+10:20:34 PM	Updating Step 'PreOperationApplicationUpdate: Update of Application'
+10:20:35 PM	Updating Image 'PreImage'
+10:20:35 PM	Updating Type 'AKL.Dynamics365.Plugin.PostOperationInterviewProcessCreate'
+10:20:35 PM	Updating Step 'PostOperationInterviewProcessCreate: Create of InterviewProcess'
+10:20:36 PM	Registering Image 'PostImage'
+10:20:36 PM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationPersonalInterviewCreate'
+10:20:37 PM	Updating Step 'PreOperationPersonalInterviewCreate: Creation of bru_personalinterview'
+10:20:37 PM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationTechnicalInterviewCreate'
+10:20:44 PM	Updating Step 'PreOperationTechnicalInterviewCreate: Creation of bru_technicalinterview'
+10:20:45 PM	Processed 1 config(s)
+10:27:55 PM	Deploying Plugins
+10:27:55 PM	Searching for plugin config in 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\spkl\..'
+10:27:55 PM	Using Config 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin'
+10:27:55 PM	Checking assembly 'AKL.Dynamics365.Plugin.dll' for plugins
+10:27:55 PM	5 plugin(s) found!
+10:27:55 PM	Checking for orphaned PluginTypes: 'AKL.Dynamics365.Plugin' 
+10:27:55 PM	Updating Plugin 'AKL.Dynamics365.Plugin' from 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\bin\Debug\AKL.Dynamics365.Plugin.dll'
+10:27:57 PM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationApplicationUpdate'
+10:27:58 PM	Updating Step 'PreOperationApplicationUpdate: Update of Application'
+10:27:59 PM	Updating Image 'PreImage'
+10:27:59 PM	Updating Type 'AKL.Dynamics365.Plugin.PostOperationInterviewProcessCreate'
+10:28:00 PM	Updating Step 'PostOperationInterviewProcessCreate: Create of InterviewProcess'
+10:28:00 PM	Registering Image 'PreImage'
+10:38:11 PM	Deploying Plugins
+10:38:11 PM	Searching for plugin config in 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\spkl\..'
+10:38:11 PM	Using Config 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin'
+10:38:12 PM	Checking assembly 'AKL.Dynamics365.Plugin.dll' for plugins
+10:38:12 PM	5 plugin(s) found!
+10:38:12 PM	Checking for orphaned PluginTypes: 'AKL.Dynamics365.Plugin' 
+10:38:12 PM	Updating Plugin 'AKL.Dynamics365.Plugin' from 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\bin\Debug\AKL.Dynamics365.Plugin.dll'
+10:38:14 PM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationApplicationUpdate'
+10:38:14 PM	Updating Step 'PreOperationApplicationUpdate: Update of Application'
+10:38:15 PM	Updating Image 'PreImage'
+10:38:15 PM	Updating Type 'AKL.Dynamics365.Plugin.PostOperationInterviewProcessCreate'
+10:38:16 PM	Updating Step 'PostOperationInterviewProcessCreate: Create of InterviewProcess'
+10:38:16 PM	Updating Image 'PostImage'
+10:38:17 PM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationPersonalInterviewCreate'
+10:38:17 PM	Updating Step 'PreOperationPersonalInterviewCreate: Creation of bru_personalinterview'
+10:38:18 PM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationTechnicalInterviewCreate'
+10:38:19 PM	Updating Step 'PreOperationTechnicalInterviewCreate: Creation of bru_technicalinterview'
+10:38:19 PM	Processed 1 config(s)
+10:43:11 PM	Deploying Plugins
+10:43:11 PM	Searching for plugin config in 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\spkl\..'
+10:43:11 PM	Using Config 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin'
+10:43:11 PM	Checking assembly 'AKL.Dynamics365.Plugin.dll' for plugins
+10:43:11 PM	5 plugin(s) found!
+10:43:12 PM	Checking for orphaned PluginTypes: 'AKL.Dynamics365.Plugin' 
+10:43:12 PM	Updating Plugin 'AKL.Dynamics365.Plugin' from 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\bin\Debug\AKL.Dynamics365.Plugin.dll'
+10:43:14 PM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationApplicationUpdate'
+10:43:15 PM	Updating Step 'PreOperationApplicationUpdate: Update of Application'
+10:43:15 PM	Updating Image 'PreImage'
+10:43:16 PM	Updating Type 'AKL.Dynamics365.Plugin.PostOperationInterviewProcessCreate'
+10:43:16 PM	Updating Step 'PostOperationInterviewProcessCreate: Create of InterviewProcess'
+10:43:17 PM	Updating Image 'PostImage'
+10:43:17 PM	Deleting Image PostImage
+10:43:17 PM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationPersonalInterviewCreate'
+10:43:18 PM	Updating Step 'PreOperationPersonalInterviewCreate: Creation of bru_personalinterview'
+10:43:19 PM	Updating Type 'AKL.Dynamics365.Plugin.PreOperationTechnicalInterviewCreate'
+10:43:20 PM	Updating Step 'PreOperationTechnicalInterviewCreate: Creation of bru_technicalinterview'
+10:43:20 PM	Processed 1 config(s)

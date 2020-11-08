@@ -1,0 +1,4 @@
+6:00:23 PM	© 2020 Microsoft Corporation. All rights reserved
+6:00:23 PM	
+6:00:23 PM	Loading config from 'C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\packages\Microsoft.CrmSdk.CoreTools.9.1.0.49\content\bin\coretools\spkl.crmsvcutil.config'
+6:00:30 PM	Code written to C:\Users\blucas\Source\Repos\AKL.Dynamics365V2\AKL.Dynamics365.Plugin\EarlyBoundTypes.cs.

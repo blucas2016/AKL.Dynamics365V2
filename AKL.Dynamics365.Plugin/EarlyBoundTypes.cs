@@ -15,7 +15,6055 @@ namespace AKL.Dynamics365.Entities
 	
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum goal_fiscalperiod
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Quarter1 = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Quarter2 = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Quarter3 = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Quarter4 = 4,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		January = 101,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		February = 102,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		March = 103,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		April = 104,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		May = 105,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		June = 106,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		July = 107,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		August = 108,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		September = 109,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		October = 110,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		November = 111,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		December = 112,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Semester1 = 201,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Semester2 = 202,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Annual = 301,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		P1 = 401,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		P2 = 402,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		P3 = 403,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		P4 = 404,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		P5 = 405,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		P6 = 406,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		P7 = 407,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		P8 = 408,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		P9 = 409,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		P10 = 410,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		P11 = 411,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		P12 = 412,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		P13 = 413,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum goal_fiscalyear
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2038 = 2038,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2037 = 2037,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2036 = 2036,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2035 = 2035,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2034 = 2034,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2033 = 2033,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2032 = 2032,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2031 = 2031,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2030 = 2030,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2029 = 2029,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2028 = 2028,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2027 = 2027,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2026 = 2026,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2025 = 2025,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2024 = 2024,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2023 = 2023,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2022 = 2022,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2021 = 2021,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2020 = 2020,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2019 = 2019,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2018 = 2018,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2017 = 2017,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2016 = 2016,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2015 = 2015,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2014 = 2014,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2013 = 2013,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2012 = 2012,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2011 = 2011,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2010 = 2010,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2009 = 2009,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2008 = 2008,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2007 = 2007,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2006 = 2006,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2005 = 2005,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2004 = 2004,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2003 = 2003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2002 = 2002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2001 = 2001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY2000 = 2000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1999 = 1999,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1998 = 1998,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1997 = 1997,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1996 = 1996,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1995 = 1995,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1994 = 1994,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1993 = 1993,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1992 = 1992,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1991 = 1991,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1990 = 1990,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1989 = 1989,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1988 = 1988,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1987 = 1987,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1986 = 1986,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1985 = 1985,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1984 = 1984,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1983 = 1983,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1982 = 1982,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1981 = 1981,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1980 = 1980,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1979 = 1979,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1978 = 1978,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1977 = 1977,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1976 = 1976,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1975 = 1975,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1974 = 1974,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1973 = 1973,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1972 = 1972,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1971 = 1971,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FY1970 = 1970,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum metric_goaltype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Money = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Decimal = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Integer = 2,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum componentstate
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Published = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Unpublished = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Deleted = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DeletedUnpublished = 3,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_eventtype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		System = 100000000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Custom = 100000001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_playbookactivity_time
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_0100AM = 100,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_0200AM = 200,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_0300AM = 300,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_0400AM = 400,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_0500AM = 500,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_0600AM = 600,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_0700AM = 700,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_0800AM = 800,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_0900AM = 900,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_1000AM = 1000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_1100AM = 1100,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_1200PM = 1200,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_0100PM = 1300,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_0200PM = 1400,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_0300PM = 1500,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_0400PM = 1600,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_0500PM = 1700,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_0600PM = 1800,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_0700PM = 1900,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_0800PM = 2000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_0900PM = 2100,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_1000PM = 2200,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_1100PM = 2300,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_1200AM = 0,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_integrationjobstatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Waiting = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Ready = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Skipped = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Processing = 192350003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Succeeded = 192350004,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Failed = 192350005,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_posystemstatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Draft = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Submitted = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Canceled = 690970002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ProductsReceived = 690970003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Billed = 690970004,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum workflowlog_objecttypecode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SystemJob = 4700,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WorkflowSession = 4710,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FlowSession = 4720,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_autocreateinvoices
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		OnWorkOrderPosted = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Never = 690970000,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_feasibility
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FeasibilityNotAvailable = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Feasible = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		NotFeasible = 192350002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_panestate
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Docked = 100000000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Minimized = 100000001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Hidden = 100000002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum qooiproduct_propertiesconfigurationstatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Edit = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Rectify = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		NotConfigured = 2,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum purchasetimeframe
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Immediate = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ThisQuarter = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		NextQuarter = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ThisYear = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Unknown = 4,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum delete_recurringappointmentmaster
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Allinstances = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Theseriesleavepastappointments = 2,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_inventoryjournaltype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		OnHand = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		OnOrder = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Allocated = 690970002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_productservicestatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Estimated = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Used = 690970001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum need
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Musthave = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Shouldhave = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Goodtohave = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Noneed = 3,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_consoleapplicationparameterruntimetype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		@string = 110000000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		number = 110000001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		boolean = 110000002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		json = 110000003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_occallingoptions
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Nocalling = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Videoandvoicecalling = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Voiceonly = 192350002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_pricelistentity
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Organization = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Customer = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Salesdocument = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Project = 192350003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum convert_campaign_response_to_lead_qualify_status
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Qualified = 3,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_workdistributionmode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Push = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Pick = 192350001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_dayofmonth
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_1 = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_2 = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_3 = 192350003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_4 = 192350004,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_5 = 192350005,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_6 = 192350006,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_7 = 192350007,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_8 = 192350008,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_9 = 192350009,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_10 = 192350010,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_11 = 192350011,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_12 = 192350012,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_13 = 192350013,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_14 = 192350014,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_15 = 192350015,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_16 = 192350016,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_17 = 192350017,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_18 = 192350018,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_19 = 192350019,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_20 = 192350020,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_21 = 192350021,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_22 = 192350022,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_23 = 192350023,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_24 = 192350024,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_25 = 192350025,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_26 = 192350026,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_27 = 192350027,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_28 = 192350028,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_29 = 192350029,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_30 = 192350030,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_31 = 192350031,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum connectionrole_category
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Business = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Family = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Social = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Sales = 4,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Other = 5,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Stakeholder = 1000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SalesTeam = 1001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Service = 1002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum convert_campaign_response_to_lead_disqualify_status
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Lost = 4,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CannotContact = 5,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		NoLongerInterested = 6,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Canceled = 7,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_languagecodes
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		English_enUS = 100000001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		French_frFR = 100000002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum isinherited
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Teamprivilegesonly = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DirectUser_BasicaccesslevelandTeamprivileges = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_screenpoptimeout
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_30 = 30,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_60 = 60,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_90 = 90,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_120 = 120,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_150 = 150,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_180 = 180,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_210 = 210,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_240 = 240,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_270 = 270,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_300 = 300,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_asyncoperationstatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Processing = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Failed = 192350001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_parametertype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		StringList = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Json = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Xml = 690970002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_timecostactualssource
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		BookingJournalsonPostofWorkOrder = 192354000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WorkOrderTimeEntryApproval = 192354001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum initialcommunication
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Contacted = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		NotContacted = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_findworkeventtype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WorkOpen = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WorkViewDuration = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WorkApply = 192350002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_iotmappingtype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Deviceidentifier = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Ruleidentifier = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Deviceproperty = 192350002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum orginsightsconfiguration_plotoption
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Line = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Column = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Area = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Pie = 4,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Bar = 5,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Donut = 6,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Infocard = 7,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		List = 8,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DoubleDonut = 9,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		LinearGauge = 10,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Bubble = 11,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_presencestatus
+	{
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_presencestatusforsupervisor
+	{
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_agentdisplayname
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Fullname = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Firstname = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Lastname = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Nickname = 192350003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_questionnairetype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PreChat = 100000000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PostChat = 100000001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Offline = 100000002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_integrationtype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MSProjectClient = 192350000,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_bookingmethod
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		None = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FullCapacity = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		RemainingCapacity = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DistributeEvenly = 192350003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PercentageCapacity = 192350004,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FrontLoad = 192350005,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InlineUpdate = 192350006,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		AutoFill = 192350007,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ByDemand = 192350008,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_exportstatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Submitted = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Exporting = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CompletedAllrecordsextracted = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Exportedwithmorerecordstoextract = 192350003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum entitytype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Case = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WorkOrder = 192350000,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_iotsource
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Other = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		AzureIoTSuite = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		AzureIoTCentral = 192350002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_projectcontractstate
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Draft = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Onhold = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Active = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Closed = 192350003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_invoicerunstatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		NotRun = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		RunSuccessful = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		RunFailed = 192350002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum servicestage
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Identify = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Research = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Resolve = 2,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_notificationtheme
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Dark = 509180000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Light = 509180001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum incidentresolutionformtype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Standarddialog = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Customizabledialog = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Quickcreatedialog = 3,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_transactionrole
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Cost = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		UnbilledSales = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		BilledSales = 192350002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_pricecalculation
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Priceperunit = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Atcost = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Markuppercentage = 192350002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_upgradestatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Started = 100000000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Success = 100000001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Failure = 100000002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum budgetstatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		NoCommittedBudget = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MayBuy = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CanBuy = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WillBuy = 3,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum sharepointdocumentlocation_locationtype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		General = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DedicatedforOneNoteIntegration = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum convert_campaign_response_to_lead_option
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Qualifyandconvertintothefollowingrecords = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Disqualify = 2,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_budgetestimate
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		BudgetEstimateNotAvailable = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WithinCustomerBudget = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ExceedsCustomerBudget = 192350002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_approvalstate
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Saved = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PendingApproval = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Rejected = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Approved = 192350003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Recalled = 192350004,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_requirementgrouporder
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FewestResourcesFirst = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		EarliestTimeFirst = 690970001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_agreementbookingstatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Active = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Processed = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Canceled = 690970002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_bookableresourcetype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Generic = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Contact = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		User = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Equipment = 4,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Account = 5,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Crew = 6,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Facility = 7,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Pool = 8,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_propertytype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		String = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Boolean = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Datetime = 192350003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum qooidetail_skippricecalculation
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DoPriceCalcAlways = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SkipPriceCalcOnCreate = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SkipPriceCalcOnUpdate = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SkipPriceCalcOnUpSert = 3,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_rmaprocessingaction
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CreateRTV = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ReturntoWarehouse = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ChangeAssetOwnership = 690970002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_chatquestionnairetype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Prechatauthenticated = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Prechatunauthenticated = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Offlineauthenticated = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Offlineunauthenticated = 192350003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Postchatauthenticated = 192350004,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Postchatunauthenticated = 192350005,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum activitypointer_deliveryprioritycode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Low = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Normal = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		High = 2,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_inventorytransactiontype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PurchaseOrderProduct = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PurchaseOrderReceipt = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WOProduct = 690970002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InventoryAdjustment = 690970003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InventoryTransfer = 690970004,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		RMAProduct = 690970005,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Manual = 690970006,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_poshiptotype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Site = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		BusinessUnit = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ServiceAccount = 690970002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Other = 690970003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_conversationcharacteristicstatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Active = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Deleted = 192350001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_expensestatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Draft = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Submitted = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Approved = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Rejected = 192350003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Posted = 192350004,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Paid = 192350005,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		RecallRequested = 192350006,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_bookingsystemstatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Scheduled = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Traveling = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InProgress = 690970003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		OnBreak = 690970002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Completed = 690970004,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Canceled = 690970005,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_iotsearchtype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DirectPath = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		KeyValuePath = 192350001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_invoicestatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		NotReadyforinvoicing = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Readyforinvoicing = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Customerinvoicecreated = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Customerinvoiceposted = 192350003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_entitlementappliesto
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WorkOrderProducts = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WorkOrderServices = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		BothWorkOrderProductsServices = 690970002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum lead_salesstage
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Qualify = 0,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_slatype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ArrivalTime = 690970000,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_bookingjournaltype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WorkingHours = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Break = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Travel = 690970002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Overtime = 690970003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		BusinessClosure = 690970004,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_requirementdependencytype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		StartAfterEnd = 192350000,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_visualizationconfigtype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Configuration1 = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Configuration2 = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Configuration3 = 192350002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum chatbotlanguage
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		English = 1033,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Spanish = 1034,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Portuguese_Brazilian = 1046,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		French = 1036,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Dutch = 1043,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Norwegian = 1044,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Danish = 1030,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Swedish = 1053,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Italian = 1040,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		German = 1031,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Chinese_Simplified = 2052,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Chinese_Traditional = 1028,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Arabic = 1025,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Japanese = 1041,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Korean = 1042,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Hindi = 1081,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Indonesian = 1057,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Russian = 1049,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Polish = 1045,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Turkish = 1055,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_levelofimportance
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_1 = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_2 = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_3 = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_4 = 4,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_5 = 5,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_6 = 6,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_7 = 7,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_8 = 8,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_9 = 9,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_10 = 10,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_ocsystemmessagetype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		AutomatedMessage = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MessageTemplate = 3,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_amountmethod
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		TaxCalculation = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MultiplyQuantityByPrice = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FixedPrice = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MultiplyBasisQuantityByPrice = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MultiplyBasisAmountByPercent = 192350003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_billingstatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ReadytoInvoice = 192350004,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Workorderclosedposted = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		UnbilledSalesCreated = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CustomerInvoiceCreated = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CustomerInvoicePosted = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Canceled = 192350003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum sla_slaenabledentities
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Case = 112,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Lead = 4,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Quote = 1084,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Order = 1088,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_durationroundingpolicy
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		None = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Up = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Down = 690970002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Nearest = 690970003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_competitive
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CustomerBudgetNotAvailable = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WithinCustomerExpectations = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		OutsideCustomerExpectations = 192350002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_fieldserviceautonumberingentities
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WorkOrder = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Agreement = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InventoryAdjustment = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InventoryTransfer = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PurchaseOrder = 4,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		RMA = 5,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		RTV = 6,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum cascadecaseclosurepreference
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Closeallchildcaseswhenparentcaseisclosed = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Dontallowparentcaseclosureuntilallchildcasesareclosed = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_agentinputlanguage
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		EnglishUnitedStates = 1033,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ArabicSaudiArabia = 1025,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		BasqueSpain = 1069,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CatalanSpain = 1027,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		BulgarianBulgaria = 1026,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CroatianCroatia = 1050,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CzechCzechRepublic = 1029,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DanishDenmark = 1030,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DutchNetherlands = 1043,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		EstonianEstonia = 1061,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FinnishFinland = 1035,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FrenchFrance = 1036,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		GalicianSpain = 1110,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		GermanGermany = 1031,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		GreekGreece = 1032,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		HebrewIsrael = 1037,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		HindiIndia = 1081,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		HungarianHungary = 1038,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ItalianItaly = 1040,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		IndonesianIndonesia = 1057,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		JapaneseJapan = 1041,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		KazakhKazakhstan = 1087,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		KoreanKorea = 1042,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		LatvianLatvia = 1062,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		LithuanianLithuania = 1063,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MalayMalaysia = 1086,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		NorwegianBokmalNorway = 1044,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PolishPoland = 1045,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PortugueseBrazil = 1046,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PortuguesePortugal = 2070,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		RomanianRomania = 1048,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		RussianRussia = 1049,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Serbian_CyrillicSerbia = 3098,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Serbian_LatinSerbia = 2074,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SlovakSlovakia = 1051,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SlovenianSlovenia = 1060,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SpanishSpain = 3082,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SwedishSweden = 1053,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ThaiThailand = 1054,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		TurkishTurkey = 1055,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		UkrainianUkraine = 1058,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		VietnameseVietnam = 1066,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ChineseChina = 2052,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ChineseHongKong = 3076,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum activity_typecode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PhoneCall = 4210,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Appointment = 4201,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Letter = 4207,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Fax = 4204,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Email = 4202,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_suggestedpriority
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Calculating = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		High = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Low = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		NoSuggestions = 192350003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_bookingsource
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ScheduleBoard = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Mobile = 690970002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Manual = 690970003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ScheduleAssistant = 690970004,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SystemAgreementSchedule = 690970005,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_postconversationsurveymode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Insertsurveyinconversation = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Sendsurveylinktoconversation = 192350001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_crewmembertype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Leader = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Member = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		None = 192350002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_widgetposition
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Bottomright = 192236010,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Bottomleft = 192236011,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_adjustmentstatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InProcess = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Adjusted = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Unadjustable = 192350002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_rtvsystemstatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Draft = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Approved = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Shipped = 690970002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Received = 690970003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Canceled = 690970004,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_recurrenceday
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Day = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Weekday = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WeekendDay = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Sunday = 192350003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Monday = 192350004,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Tuesday = 192350005,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Wednesday = 192350006,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Thursday = 192350007,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Friday = 192350008,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Saturday = 192350009,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum componenttype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Entity = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Attribute = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Relationship = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		AttributePicklistValue = 4,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		AttributeLookupValue = 5,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ViewAttribute = 6,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		LocalizedLabel = 7,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		RelationshipExtraCondition = 8,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		OptionSet = 9,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		EntityRelationship = 10,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		EntityRelationshipRole = 11,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		EntityRelationshipRelationships = 12,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ManagedProperty = 13,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		EntityKey = 14,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Privilege = 16,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PrivilegeObjectTypeCode = 17,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Role = 20,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		RolePrivilege = 21,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DisplayString = 22,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DisplayStringMap = 23,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Form = 24,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Organization = 25,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SavedQuery = 26,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Workflow = 29,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Report = 31,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ReportEntity = 32,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ReportCategory = 33,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ReportVisibility = 34,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Attachment = 35,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		EmailTemplate = 36,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ContractTemplate = 37,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		KBArticleTemplate = 38,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MailMergeTemplate = 39,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DuplicateRule = 44,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DuplicateRuleCondition = 45,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		EntityMap = 46,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		AttributeMap = 47,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		RibbonCommand = 48,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		RibbonContextGroup = 49,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		RibbonCustomization = 50,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		RibbonRule = 52,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		RibbonTabToCommandMap = 53,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		RibbonDiff = 55,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SavedQueryVisualization = 59,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SystemForm = 60,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WebResource = 61,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SiteMap = 62,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ConnectionRole = 63,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ComplexControl = 64,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FieldSecurityProfile = 70,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FieldPermission = 71,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PluginType = 90,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PluginAssembly = 91,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SDKMessageProcessingStep = 92,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SDKMessageProcessingStepImage = 93,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ServiceEndpoint = 95,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		RoutingRule = 150,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		RoutingRuleItem = 151,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SLA = 152,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SLAItem = 153,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ConvertRule = 154,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ConvertRuleItem = 155,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		HierarchyRule = 65,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MobileOfflineProfile = 161,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MobileOfflineProfileItem = 162,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SimilarityRule = 165,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CustomControl = 66,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CustomControlDefaultConfig = 68,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DataSourceMapping = 166,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SDKMessage = 201,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SDKMessageFilter = 202,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SdkMessagePair = 203,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SdkMessageRequest = 204,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SdkMessageRequestField = 205,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SdkMessageResponse = 206,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SdkMessageResponseField = 207,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WebWizard = 210,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Index = 18,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ImportMap = 208,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CanvasApp = 300,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Connector371 = 371,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Connector = 372,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		EnvironmentVariableDefinition = 380,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		EnvironmentVariableValue = 381,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		AIProjectType = 400,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		AIProject = 401,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		AIConfiguration = 402,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		EntityAnalyticsConfiguration = 430,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		AttributeImageConfiguration = 431,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		EntityImageConfiguration = 432,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdynce_contentstate
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Released = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Draft = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_autoupdatebookingtraveltype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Disabled = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Enabled = 192350001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum activitypointer_activitytypecode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Fax = 4204,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PhoneCall = 4210,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Email = 4202,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Letter = 4207,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Appointment = 4201,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Task = 4212,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		RecurringAppointment = 4251,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		QuickCampaign = 4406,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CampaignActivity = 4402,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CampaignResponse = 4401,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CaseResolution = 4206,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ServiceActivity = 4214,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		OpportunityClose = 4208,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		OrderClose = 4209,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		QuoteClose = 4211,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CustomerVoicealert = 10142,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CustomerVoicesurveyinvite = 10151,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CustomerVoicesurveyresponse = 10152,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		BookingAlert = 10160,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ProjectServiceApproval = 10190,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Conversation = 10453,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Session = 10462,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Outboundmessage = 10538,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum allocationtype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Numberofcases = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Numberofhours = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DiscountandPriceList = 192350000,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum workflow_runas
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Owner = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CallingUser = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_consoleapplicationnotificationaction
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Allow = 100000000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Deny = 100000001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum qooi_pricingerrorcode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		None = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DetailError = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MissingPriceLevel = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InactivePriceLevel = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MissingQuantity = 4,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MissingUnitPrice = 5,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MissingProduct = 6,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InvalidProduct = 7,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MissingPricingCode = 8,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InvalidPricingCode = 9,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MissingUOM = 10,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ProductNotInPriceLevel = 11,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MissingPriceLevelAmount = 12,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MissingPriceLevelPercentage = 13,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MissingPrice = 14,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MissingCurrentCost = 15,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MissingStandardCost = 16,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InvalidPriceLevelAmount = 17,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InvalidPriceLevelPercentage = 18,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InvalidPrice = 19,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InvalidCurrentCost = 20,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InvalidStandardCost = 21,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InvalidRoundingPolicy = 22,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InvalidRoundingOption = 23,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InvalidRoundingAmount = 24,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PriceCalculationError = 25,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InvalidDiscountType = 26,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DiscountTypeInvalidState = 27,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InvalidDiscount = 28,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InvalidQuantity = 29,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InvalidPricingPrecision = 30,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MissingProductDefaultUOM = 31,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MissingProductUOMSchedule = 32,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InactiveDiscountType = 33,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InvalidPriceLevelCurrency = 34,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PriceAttributeOutOfRange = 35,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		BaseCurrencyAttributeOverflow = 36,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		BaseCurrencyAttributeUnderflow = 37,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Transactioncurrencyisnotsetfortheproductpricelistitem = 38,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_applicationtype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		EntityList = 509180000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		EntityRecord = 509180001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WebResource = 509180002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Control = 509180003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Dashboard = 509180004,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Search = 509180005,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ThirdPartyWebsite = 509180006,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_expensecategorybehavior
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Optional = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Mandatory = 192350001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_weekday
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Sunday = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Monday = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Tuesday = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Wednesday = 192350003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Thursday = 192350004,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Friday = 192350005,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Saturday = 192350006,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_playbookactivity_priority
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Low = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Normal = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		High = 2,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_expensetypes
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CarRental = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Meal = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Airline = 192350003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Entertainment = 192350004,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Gift = 192350005,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Conference = 192350006,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Miscellaneous = 192350007,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Mileage = 192350008,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Perdiem = 192350009,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Hotel = 192350000,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_occurrenceofweekday
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		First = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Second = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Third = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Fourth = 192350003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Last = 192350004,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum orginsightsconfiguration_lookback
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_2H = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_48H = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_7D = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_30D = 4,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_suggestiontype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		KnowledgeArticleSuggestion = 192360000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SimilarCaseSuggestion = 192360001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		BotSuggestion = 192360002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_recuron
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_1st = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_2nd = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_3rd = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_4th = 192350003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Last = 192350004,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum sharepoint_validationstatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		NotValidated = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InProgress = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Invalid = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Valid = 4,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Couldnotvalidate = 5,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_worklocation
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Onsite = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Facility = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		LocationAgnostic = 690970002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_projectcontractstatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Draft = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Inreview = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Onhold = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Confirmed = 192350003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Completed = 192350004,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Lost = 192350005,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Abandoned = 192350006,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_frequency
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Weekly = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Monthly = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Biweekly = 192350002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_extensiontype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		System = 387300000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Custom = 387300001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_smsprovider
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Twilio = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		TeleSign = 192350000,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_conversation_statecode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Open = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Active = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Waiting = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Closed = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Wrapup = 4,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_yearlyrecurrence
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Dayofthemonth = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Dayoftheweekandmonth = 192350001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum emailserverprofile_authenticationprotocol
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		AutoDetect = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Negotiate = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		NTLM = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Basic = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		OAuth = 4,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_partytype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Account = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Contact = 192350002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_timeoffrecordstatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PendingApproval = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Approved = 690970001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum sharepointsite_servicetype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SharePoint = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		OneDrive = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Sharedwithme = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MSTeams = 3,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_dailyrecurrence
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Every = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		EveryWeekday = 192350001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_computablefields
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Quantity = 192350001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_daysofrun
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Dayofperiod = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Weekdayofperiod = 192350001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_estimateheadertype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Resourcebasedestimate = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Activitybasedestimate = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Assignmentbasedestimate = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Customestimate = 192350003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum officedocument_documenttype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MicrosoftExcel = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MicrosoftWord = 2,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_iotaggregation
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		None = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Avg = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Min = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Max = 192350003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Sum = 192350004,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Count = 192350005,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_resourceschedulesource
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ResourceSchedulingOptimization = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SystemAgreementSchedule = 690970005,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ScheduleBoard = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Mobile = 690970002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Manual = 690970003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ScheduleAssistant = 690970004,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_ocsystemmessageeventtype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Agentjoinedconversation = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Consultaccepted = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Transfertoagentaccepted = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Consultstarted = 192350003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Consultrequestfailed = 192350004,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Transfertoagentrequested = 192350005,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Transfertoagentfailed = 192350006,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Consultrejected = 192350007,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Transfertoagentrejected = 192350008,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Consultrequesttimedout = 192350009,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Transfertoagenttimedout = 192350010,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Transfertoqueuestarted = 192350011,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Transfertoqueuefailed = 192350012,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Agentdisconnectedfromconversation = 192350013,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Agentendedconversation = 192350014,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Sessionended = 192350015,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Consultsessionended = 192350016,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Agentassignedtoconversation = 192350017,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Agentcouldntbeassignedtoconversation = 192350018,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Customerendedconversation = 192350019,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Customerdisconnected = 192350020,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Customerspositioninqueue = 192350021,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Agentsmessagecouldntbesent = 192350022,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CustomersmessagecouldntbesentOutsideofoperationhours = 192350023,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Customerisnextinline = 192350024,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MessagecouldntbedeliveredUnsupportedmessagetype = 192350025,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Voicecallrequested = 192350026,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Voicecallaccepted = 192350027,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Voicecalldeclined = 192350028,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MessagecouldntbesentOutsideallowedtimeframe = 192350029,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		AveragewaittimeforcustomersMinutes = 192350030,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		AveragewaittimeforcustomersHours = 192350031,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		AveragewaittimeforcustomersHoursandminutes = 192350032,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Voicecallended = 192350033,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MessagecouldntbesentAchannelaccountcantmessageanotheraccountwithinOmnichannel = 192350034,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Holidaymessagetocustomer = 192350035,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Outofoperatinghourmessagetocustomer = 192350036,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CouldntfindthechannelaccountinOmnichannel = 192350037,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Customersfilecouldntbeattachedbecauseitstoobig = 192350038,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Transfertooutofoperatinghourqueue = 192350039,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MessagecouldntbesentFilecouldntbeattached = 192350040,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		LeaveasmanymessagesasyoudlikeandwellgetbacktoyouassoonaspossibleWellsaveyourchathistorysoyoucanleaveandcomebackanytime = 192350041,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_deviceevent
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		IoTAlert = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Case = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WorkOrder = 192350002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_distanceunit
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Miles = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		KM = 192350001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_attachmenttype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Image = 700610000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Video = 700610001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum mobileofflineenabledentities
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Account = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Contact = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Note = 5,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		User = 8,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Team = 9,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Attachment = 1001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Queue = 2020,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		QueueItem = 2029,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Appointment = 4201,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Email = 4202,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Task = 4212,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SLAKPIInstance = 9752,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		AccountLeads = 16,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ContactLeads = 22,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Lead = 4,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Product = 1024,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PriceList = 1022,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PriceListItem = 1026,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ProductRelationship = 1028,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Unit = 1055,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		UnitGroup = 1056,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Entitlement = 9700,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		EntitlementContact = 7272,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		EntitlementProduct = 6363,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		EntitlementTemplateProduct = 4545,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Case = 112,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		IncidentKnowledgeBaseRecord = 9931,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PhoneToCaseProcess = 952,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		IoTAlerttoCaseProcess = 10103,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CompetitorAddress = 1004,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CompetitorProduct = 1006,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		LeadCompetitors = 24,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		LeadProduct = 27,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		LeadToOpportunitySalesProcess = 954,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Opportunity = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		OpportunityCompetitors = 25,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		OpportunitySalesProcess = 953,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Competitor = 123,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Invoice = 1090,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Quote = 1084,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Order = 1088,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Currency = 9105,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SchedulingParameter = 10181,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InvoiceLine = 1091,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ProjectStages = 10192,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InvoiceProcess = 10193,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		OpportunityLine = 1083,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		QuoteLine = 1085,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		OrderLine = 1089,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Inspection = 10274,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InspectionAttachment = 10275,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InspectionVersion = 10276,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InspectionResponse = 10277,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PurchaseOrderBusinessProcess = 10291,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CasetoWorkOrderBusinessProcess = 10292,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		AgreementBusinessProcess = 10293,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WorkOrderBusinessProcess = 10294,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		IncidentTypesSetup = 10305,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		BookableResource = 1150,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		BookableResourceBooking = 1145,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		BookingStatus = 1152,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		AssetCategoryTemplateAssociation = 10361,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		AssetTemplateAssociation = 10362,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		BookingTimestamp = 10290,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CustomerAsset = 10085,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CustomerAssetCategory = 10086,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FieldServicePriceListItem = 10296,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FunctionalLocation = 10364,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		IncidentType = 10300,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		IncidentTypeProduct = 10302,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		IncidentTypeService = 10303,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		IncidentTypeServiceTask = 10304,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Priority = 10169,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ProductInventory = 10320,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PropertyDefinition = 10365,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PropertyAssetAssociation = 10366,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PropertyLog = 10367,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PropertyTemplateAssociation = 10368,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ServiceTaskType = 10343,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		TemplateForProperties = 10369,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		TimeEntry = 10255,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		TimeSource = 10270,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		TimeOffRequest = 10347,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WorkOrder = 10350,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WorkOrderIncident = 10353,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WorkOrderProduct = 10354,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WorkOrderService = 10356,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WorkOrderServiceTask = 10357,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WorkOrderSubstatus = 10358,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WorkOrderType = 10359,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PhoneCall = 4210,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Territory = 2013,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Connection = 3234,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ConnectionRole = 3231,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		IoTDevice = 10088,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		IoTDeviceCategory = 10089,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		IoTDeviceCommandDefinition = 10091,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		IoTDeviceDataHistory = 10092,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		IoTDeviceProperty = 10093,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		IoTDeviceRegistrationHistory = 10094,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		IoTPropertyDefinition = 10097,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		IoTProvider = 10098,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		IoTProviderInstance = 10099,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		IoTSettings = 10100,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CFSIoTAlertProcessFlow = 10375,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		IoTAlert = 10087,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		IoTDeviceCommand = 10090,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		GeolocationSettings = 10376,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InterviewProcessFlow = 10545,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Property = 1048,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PropertyAssociation = 1235,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PropertyOptionSetItem = 1049,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_timeentrystatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Cancelled = 192354320,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Draft = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Returned = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Approved = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Submitted = 192350003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		RecallRequested = 192350004,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_panelstateoptions
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Docked = 162450002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Hidden = 162450001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Minimized = 162450000,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum convertrule_channelactivity
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PhoneCall = 4210,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Email = 4202,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Appointment = 4201,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Task = 4212,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SocialActivity = 4216,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ServiceActivity = 4214,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CustomerVoicealert = 10142,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CustomerVoicesurveyinvite = 10151,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CustomerVoicesurveyresponse = 10152,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		BookingAlert = 10160,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ProjectServiceApproval = 10190,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Conversation = 10453,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Session = 10462,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Outboundmessage = 10538,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_crewstrategy
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CascadeandAcceptCascadeCompletely = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CrewLeaderManagement = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CrewMemberSelfManagement = 192350002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum addlistcampaign
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Tothecampaignandallundistributedcampaignactivities = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Tothecampaignonly = 0,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_wbsnodelevel
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		None = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Root = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Level1Phase = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Level2Summary = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		LeafNode = 4,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum selectedmobileofflineenabledentityrelationships
+	{
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum botsharingroletypes
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Chatbotmanager = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Chatbotauthor = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Chatbotreviewer = 3,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_billingtype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		NonChargeable = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Chargeable = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Complimentary = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		NotAvailable = 192350003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_reservationtype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		None = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Both = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Booking = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Assignment = 192350003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_timestampfrequency
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PerBookingStatusChange = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PerFieldServiceStatusChange = 192350001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_committype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Canceled = 192350004,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		None = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		HardBook = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SoftBook = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Proposed = 192350003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_agreementinvoicestatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Scheduled = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Processed = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Canceled = 690970002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_visitorjourneytype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PageView = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Search = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		KBArticle = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CustomAction = 192350100,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum knowledgearticle_expirationstate
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Expired = 4,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Published = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Archived = 5,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_monthofyear
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		January = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		February = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		March = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		April = 192350003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		May = 192350004,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		June = 192350005,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		July = 192350006,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		August = 192350007,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		September = 192350008,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		October = 192350009,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		November = 192350010,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		December = 192350011,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_serviceappointmentstatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Pending = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Reserved = 4,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InProgress = 6,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Arrived = 7,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Completed = 8,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Canceled = 9,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		NoShow = 10,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_numberofdays
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_0 = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_15 = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_30 = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_60 = 192350003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_90 = 192350004,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_timescale
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Hour = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Day = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Week = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Month = 192350003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Quarter = 192350004,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		HalfYear = 192350005,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_liveworkitemeventtype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Default = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Created = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ContextUpdated = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CustomerRejoin = 192350003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SkillIdentified = 192350005,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_timeentrysourcetype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ProjectService = 192351000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FieldService = 192354000,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum socialactivity_postmessagetype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PublicMessage = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PrivateMessage = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum connectortype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CustomConnector = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		NotSpecified = 0,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_timeentrygenerationstrategy
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Manual = 192355200,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		AutoGeneratefromBookingTimestamps = 192355201,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_purchaseorderproductstatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Pending = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Received = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Canceled = 690970002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_linetype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ProjectServiceLine = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FieldServiceLine = 690970001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_includeexclude
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Include = 100000000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Exclude = 100000001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_rmasystemstatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Pending = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Canceled = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ProductsReceived = 690970002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum syncattributemapping_syncdirection
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		None = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ToExchange = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ToCRM = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Bidirectional = 3,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum customapifieldtype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Boolean = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DateTime = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Decimal = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Entity = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		EntityCollection = 4,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		EntityReference = 5,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Float = 6,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Integer = 7,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Money = 8,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Picklist = 9,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		String = 10,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum workflow_stage
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Preoperation = 20,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Postoperation = 40,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum bulkemail_recipients
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Selectedrecordsoncurrentpage = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Allrecordsoncurrentpage = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Allrecordsonallpages = 3,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_notificationtypes
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Directlyopensession = 100000000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Screenpopwithtimeout = 100000001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Screenpopwithdecline = 100000002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_projecttaskstatusindicators
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Green = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Yellow = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Red = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		None = 192350003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_wosystemstatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		OpenUnscheduled = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		OpenScheduled = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		OpenInProgress = 690970002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		OpenCompleted = 690970003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ClosedPosted = 690970004,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ClosedCanceled = 690970005,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_profitability
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ProfitabilityNotAvailable = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Profitable = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		NotProfitable = 192350002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_ocmessagereceiver
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Agent = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Customer = 192350001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_sessiontypeoptions
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Entity = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Generic = 0,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_queuetype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Messaging = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Entity = 192350001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_monthlyrecurrence
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Dayoftheweek = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Dayofthemonth = 192350001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_conversationcharacteristicsource
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		RuleBased = 321240000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MLBased = 321240001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Manual = 321240002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_conversationaction_language_locale
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		enUS = 1033,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		arSA = 1025,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		euES = 1069,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		caES = 1027,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		bgBG = 1026,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		hrHR = 1050,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		csCZ = 1029,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		daDK = 1030,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		nlNL = 1043,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		etEE = 1061,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		fiFI = 1035,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		frFR = 1036,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		glES = 1110,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		deDE = 1031,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		elGR = 1032,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		heIL = 1037,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		hiIN = 1081,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		huHU = 1038,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		itIT = 1040,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		idID = 1057,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		jaJP = 1041,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		kkKZ = 1087,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		koKR = 1042,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		lvLV = 1062,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ltLT = 1063,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		msMY = 1086,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		nbNO = 1044,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		plPL = 1045,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ptBR = 1046,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ptPT = 2070,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		roRO = 1048,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ruRU = 1049,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		srCyrlCS = 3098,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		srLatnCS = 2074,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		skSK = 1051,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		slSI = 1060,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		esES = 3082,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		svSE = 1053,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		thTH = 1054,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		trTR = 1055,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ukUA = 1058,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		viVN = 1066,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		zhCN = 2052,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		zhHK = 3076,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		zhTW = 1028,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_pooltype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Account = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Contact = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		User = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Equipment = 192350003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Facility = 192350004,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_userauthenticationmode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Authenticated = 100000000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Anonymous = 100000001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Either = 100000002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum convert_campaign_response_qualify_lead_options
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Qualifylead = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Disqualifylead = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum convert_campaign_response_option
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Createalead = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Converttoanexistinglead = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Createaquoteorderoropportunityforanaccountorcontact = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Closeresponse = 4,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum documenttemplate_associatedentitytypecode
+	{
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_widgetthemecolor
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Red = 19236001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Teal = 192360017,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Blue = 19236002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Green = 19236003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Black = 19236004,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Orange = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Pink = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Grey = 192350003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Violet = 192350004,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Brown = 192350005,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Clay = 192350006,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Purple = 192350007,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum convert_campaign_response_sales_entity_type
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Opportunity = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Order = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Quote = 3,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_apiversionoptions
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_2 = 162450000,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_ocmessagetemplatetrigger
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Outside24hourconversationwindow = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_timerangetype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Hours = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Days = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Latest = 192350002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_characteristictype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Skill = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Certification = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Education = 192350002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_jobstatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Pending = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InProgress = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Completed = 690970002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Failed = 690970003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_desktopnotificationvisibility
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Never = 509180000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Whenappisinbackground = 509180001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_inspectionstatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		NotStarted = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InProgress = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Completed = 192350002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum dependencytype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		None = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SolutionInternal = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Published = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Unpublished = 4,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_rmaproductstatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Pending = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Received = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Canceled = 690970002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_outofstockoptions
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Confirm = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Restrict = 690970001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_transactiontypecode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Cost = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ProjectContract = 192350004,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		UnbilledSales = 192350005,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		BilledSales = 192350006,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ResourcingUnitCost = 192350007,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InterOrganizationalSales = 192350008,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_poapprovalstatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Approved = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Rejected = 690970001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_fieldserviceproducttype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Inventory = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		NonInventory = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Service = 690970002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_messagetype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Createconversationwhencustomerresponds = 100000000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Createconversationonsend = 100000001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum socialprofile_community
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Cortana = 5,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DirectLine = 6,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MicrosoftTeams = 7,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DirectLineSpeech = 8,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Email = 9,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		GroupMe = 10,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Kik = 11,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Telegram = 12,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Skype = 13,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Slack = 14,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WhatsApp = 15,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Line = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Wechat = 4,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Facebook = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Twitter = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Other = 0,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_streamsource
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		EntityRecords = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Livechat = 192360000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Voice = 192370000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Video = 192380000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Cobrowse = 192390000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Screensharing = 192400000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SMS = 192340000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Facebook = 192330000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		LINE = 192310000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WhatsApp = 192300000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WeChat = 192320000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Twitter = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Custom = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		MicrosoftTeams = 19241000,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_transactionclassification
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Commission = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Additional = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Tax = 690970002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Time = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Expense = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Material = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Milestone = 192350003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Fee = 192350004,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_billingmethod
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		TimeandMaterial = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FixedPrice = 192350001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum field_security_permission_type
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		NotAllowed = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Allowed = 4,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_timeentrytype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Overtime = 192354320,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Work = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Absence = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Vacation = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		OnBreak = 192355000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Travel = 192355001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum purchaseprocess
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Individual = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Committee = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Unknown = 2,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_agreementsystemstatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Estimate = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Active = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Expired = 690970002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Canceled = 690970003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum opportunity_salesstage
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Qualify = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Develop = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Propose = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Close = 3,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_suggestioncontroltype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		AdaptiveCard = 192360000,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum photo_resolution
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DeviceDefault = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_640x480 = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_1024x768 = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_1600x1200 = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_2048x1536 = 4,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Number_2592x1936 = 5,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum flipswitch_options
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Off = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		On = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum qooiproduct_producttype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Product = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Bundle = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		RequiredBundleProduct = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		OptionalBundleProduct = 4,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ProjectbasedService = 5,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_rangeofrecurrence
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		NoEndDate = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Endafter_specifiedoccurrences = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Endby = 192350002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_module
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Cost = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Purchase = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Sales = 192350002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_pricingdimensiontype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Amountbased = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Markupbased = 192350001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_paymenttype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Cash = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Check = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CreditCard = 690970002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Other = 690970003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_personalmessage_localefield
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		daDK = 1030,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		deDE = 1031,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		esES = 3082,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		enUS = 1033,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		frFR = 1036,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		itIT = 1040,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		nlNL = 1043,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		jaJP = 1041,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		nbNO = 1044,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ptBR = 1046,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ptPT = 2070,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		svSE = 1053,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		arSA = 1025,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		zhCN = 2052,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		idID = 1057,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		plPL = 1045,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		roRO = 1048,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ruRU = 1049,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		thTH = 1054,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		trTR = 1055,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		fiFI = 1035,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		koKR = 1042,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		csCZ = 1029,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		heIL = 1037,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum processstage_category
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Qualify = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Develop = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Propose = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Close = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Identify = 4,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Research = 5,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Resolve = 6,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Approval = 7,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum qooi_skippricecalculation
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DoPriceCalcAlways = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SkipPriceCalcOnRetrieve = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum convert_campaign_response_deactivate_status
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Closed = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Cancelled = 2,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_schedule
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ScheduleNotAvailable = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		EstimatedToFinishEarly = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		EstimatedToFinishLate = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		EstimatedToFinishOnSchedule = 192350003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_activitylinktype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FinishtoStart = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		StarttoStart = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FinishtoFinish = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		StarttoFinish = 192350004,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_relationship_cardinality
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		One = 387300000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Many = 387300001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_srooptions
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		RerouteBookings = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		UpdateTravelTime = 192350001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum activity_mailmergetypecode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PhoneCall = 4210,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Appointment = 4201,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Letter = 4207,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		LetterviaMailMerge = 42070,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Fax = 4204,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FaxviaMailMerge = 42040,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Email = 4202,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		EmailviaMailMerge = 42020,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_iotfielddataformat
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Direct = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		JSON = 192350001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_desktopnotificationsettings
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Never = 100000002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Whenappisinbackground = 100000003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum bookableresourcecharacteristictype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Skill = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Certification = 2,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_generictype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ServiceCenter = 690970000,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum sharepoint_validationstatusreason
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ThisrecordsURLhasnotbeenvalidated = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ThisrecordsURLisvalid = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ThisrecordsURLisnotvalid = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		TheURLschemesofMicrosoftDynamics365andSharePointaredifferent = 4,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		TheURLcouldnotbeaccessedbecauseofInternetExplorersecuritysettings = 5,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Authenticationfailure = 6,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Invalidcertificates = 7,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_facttype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Actual = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Estimate = 192350001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum incident_caseorigincode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Phone = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Email = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Web = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Facebook = 2483,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Twitter = 3986,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		IoT = 700610000,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum recurrencerule_monthofyear
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InvalidMonthOfYear = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		January = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		February = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		March = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		April = 4,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		May = 5,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		June = 6,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		July = 7,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		August = 8,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		September = 9,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		October = 10,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		November = 11,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		December = 12,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_targetaudience
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Agent = 100000000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Customer = 100000001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_projectinvoicestatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Draft = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InReview = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Confirmed = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		InvoicePaid = 192350003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_workstartlocationtype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		LocationAgnostic = 690970002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ResourceAddress = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		OrganizationalUnitAddress = 690970001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_conversation_statuscode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Open = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Active = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Waiting = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Closed = 4,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Wrapup = 5,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_requirementstatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Active = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Completed = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Canceled = 690970002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_recurrencepattern
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Daily = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Weekly = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Monthly = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Yearly = 192350003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum convert_campaign_response_options
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Createalead = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Converttoanexistinglead = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Createaquoteorderoropportunityforanaccountorcontact = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Closeresponse = 3,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_productcostorder
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		StandardCurrent = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		CurrentStandard = 690970001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum principalsyncattributemapping_syncdirection
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		None = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ToExchange = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ToCRM = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Bidirectional = 3,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_widgetlanguage
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		AutoDetect = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		English = 192360014,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_inspectionresult
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Pass = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Fail = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PartialSuccess = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		NA = 192350003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_basepresencestatus
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Available = 192360000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Busy = 192360001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		BusyDND = 192360002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Away = 192360003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Offline = 192360004,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_travelchargetype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Hourly = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Mileage = 690970001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Fixed = 690970002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		None = 690970003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_changesource
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Desktop = 690970000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Mobile = 690970001,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum msdyn_chatanswertype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Singleline = 192350000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Multiplelines = 192350001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Optionset = 192350002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Rating = 192350003,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		UserConsent = 192350004,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum bru_technicalinterviewtype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SolutionsArchitect = 171950000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		SystemsEngineer = 171950001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FullStackDeveloper = 171950002,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Dynamics365Developer = 171950003,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum bru_personalinterviewtype
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Director = 171950000,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Manager = 171950001,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Developer = 171950002,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum account_accountcategorycode
 	{
 		
@@ -27,7 +6075,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum account_accountclassificationcode
 	{
 		
@@ -36,7 +6084,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum account_accountratingcode
 	{
 		
@@ -45,7 +6093,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum account_address1_addresstypecode
 	{
 		
@@ -63,7 +6111,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum account_address1_freighttermscode
 	{
 		
@@ -75,7 +6123,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum account_address1_shippingmethodcode
 	{
 		
@@ -102,7 +6150,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum account_address2_addresstypecode
 	{
 		
@@ -111,7 +6159,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum account_address2_freighttermscode
 	{
 		
@@ -120,7 +6168,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum account_address2_shippingmethodcode
 	{
 		
@@ -129,7 +6177,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum account_businesstypecode
 	{
 		
@@ -138,7 +6186,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum account_customersizecode
 	{
 		
@@ -147,7 +6195,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum account_customertypecode
 	{
 		
@@ -189,7 +6237,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum account_industrycode
 	{
 		
@@ -294,7 +6342,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum account_ownershipcode
 	{
 		
@@ -312,7 +6360,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum account_paymenttermscode
 	{
 		
@@ -330,7 +6378,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum account_preferredappointmentdaycode
 	{
 		
@@ -357,7 +6405,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum account_preferredappointmenttimecode
 	{
 		
@@ -372,7 +6420,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum account_preferredcontactmethodcode
 	{
 		
@@ -393,7 +6441,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum account_shippingmethodcode
 	{
 		
@@ -402,7 +6450,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum AccountState
 	{
 		
@@ -414,7 +6462,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum account_statuscode
 	{
 		
@@ -426,7 +6474,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum account_territorycode
 	{
 		
@@ -439,7 +6487,7 @@ namespace AKL.Dynamics365.Entities
 	/// </summary>
 	[System.Runtime.Serialization.DataContractAttribute()]
 	[Microsoft.Xrm.Sdk.Client.EntityLogicalNameAttribute("account")]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public partial class Account : Microsoft.Xrm.Sdk.Entity, System.ComponentModel.INotifyPropertyChanging, System.ComponentModel.INotifyPropertyChanged
 	{
 		
@@ -2543,16 +8591,31 @@ namespace AKL.Dynamics365.Entities
 		/// Specify how travel is charged for this account.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msdyn_travelchargetype")]
-		public Microsoft.Xrm.Sdk.OptionSetValue msdyn_TravelChargeType
+		public System.Nullable<AKL.Dynamics365.Entities.msdyn_travelchargetype> msdyn_TravelChargeType
 		{
 			get
 			{
-				return this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("msdyn_travelchargetype");
+				Microsoft.Xrm.Sdk.OptionSetValue optionSet = this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("msdyn_travelchargetype");
+				if ((optionSet != null))
+				{
+					return ((AKL.Dynamics365.Entities.msdyn_travelchargetype)(System.Enum.ToObject(typeof(AKL.Dynamics365.Entities.msdyn_travelchargetype), optionSet.Value)));
+				}
+				else
+				{
+					return null;
+				}
 			}
 			set
 			{
 				this.OnPropertyChanging("msdyn_TravelChargeType");
-				this.SetAttributeValue("msdyn_travelchargetype", value);
+				if ((value == null))
+				{
+					this.SetAttributeValue("msdyn_travelchargetype", null);
+				}
+				else
+				{
+					this.SetAttributeValue("msdyn_travelchargetype", new Microsoft.Xrm.Sdk.OptionSetValue(((int)(value))));
+				}
 				this.OnPropertyChanged("msdyn_TravelChargeType");
 			}
 		}
@@ -3826,7 +9889,1534 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum bru_interviewState
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Active = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Inactive = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum bru_interview_statuscode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Active = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Inactive = 2,
+	}
+	
+	/// <summary>
+	/// 
+	/// </summary>
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[Microsoft.Xrm.Sdk.Client.EntityLogicalNameAttribute("bru_interview")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public partial class bru_interview : Microsoft.Xrm.Sdk.Entity, System.ComponentModel.INotifyPropertyChanging, System.ComponentModel.INotifyPropertyChanged
+	{
+		
+		/// <summary>
+		/// Default Constructor.
+		/// </summary>
+		public bru_interview() : 
+				base(EntityLogicalName)
+		{
+		}
+		
+		public const string EntityLogicalName = "bru_interview";
+		
+		public const int EntityTypeCode = 10541;
+		
+		public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+		
+		public event System.ComponentModel.PropertyChangingEventHandler PropertyChanging;
+		
+		private void OnPropertyChanged(string propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+			}
+		}
+		
+		private void OnPropertyChanging(string propertyName)
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, new System.ComponentModel.PropertyChangingEventArgs(propertyName));
+			}
+		}
+		
+		/// <summary>
+		/// 
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_candidate")]
+		public Microsoft.Xrm.Sdk.EntityReference bru_Candidate
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("bru_candidate");
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_Candidate");
+				this.SetAttributeValue("bru_candidate", value);
+				this.OnPropertyChanged("bru_Candidate");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for entity instances
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_interviewid")]
+		public System.Nullable<System.Guid> bru_interviewId
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.Guid>>("bru_interviewid");
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_interviewId");
+				this.SetAttributeValue("bru_interviewid", value);
+				if (value.HasValue)
+				{
+					base.Id = value.Value;
+				}
+				else
+				{
+					base.Id = System.Guid.Empty;
+				}
+				this.OnPropertyChanged("bru_interviewId");
+			}
+		}
+		
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_interviewid")]
+		public override System.Guid Id
+		{
+			get
+			{
+				return base.Id;
+			}
+			set
+			{
+				this.bru_interviewId = value;
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for Interview Process associated with Interview.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_interviewsid")]
+		public Microsoft.Xrm.Sdk.EntityReference bru_InterviewsId
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("bru_interviewsid");
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_InterviewsId");
+				this.SetAttributeValue("bru_interviewsid", value);
+				this.OnPropertyChanged("bru_InterviewsId");
+			}
+		}
+		
+		/// <summary>
+		/// 
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_jobrole")]
+		public Microsoft.Xrm.Sdk.EntityReference bru_JobRole
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("bru_jobrole");
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_JobRole");
+				this.SetAttributeValue("bru_jobrole", value);
+				this.OnPropertyChanged("bru_JobRole");
+			}
+		}
+		
+		/// <summary>
+		/// The name of the custom entity.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_name")]
+		public string bru_name
+		{
+			get
+			{
+				return this.GetAttributeValue<string>("bru_name");
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_name");
+				this.SetAttributeValue("bru_name", value);
+				this.OnPropertyChanged("bru_name");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the user who created the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("createdby")]
+		public Microsoft.Xrm.Sdk.EntityReference CreatedBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("createdby");
+			}
+		}
+		
+		/// <summary>
+		/// Date and time when the record was created.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("createdon")]
+		public System.Nullable<System.DateTime> CreatedOn
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.DateTime>>("createdon");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the delegate user who created the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("createdonbehalfby")]
+		public Microsoft.Xrm.Sdk.EntityReference CreatedOnBehalfBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("createdonbehalfby");
+			}
+		}
+		
+		/// <summary>
+		/// Sequence number of the import that created this record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("importsequencenumber")]
+		public System.Nullable<int> ImportSequenceNumber
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<int>>("importsequencenumber");
+			}
+			set
+			{
+				this.OnPropertyChanging("ImportSequenceNumber");
+				this.SetAttributeValue("importsequencenumber", value);
+				this.OnPropertyChanged("ImportSequenceNumber");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the user who modified the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("modifiedby")]
+		public Microsoft.Xrm.Sdk.EntityReference ModifiedBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("modifiedby");
+			}
+		}
+		
+		/// <summary>
+		/// Date and time when the record was modified.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("modifiedon")]
+		public System.Nullable<System.DateTime> ModifiedOn
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.DateTime>>("modifiedon");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the delegate user who modified the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("modifiedonbehalfby")]
+		public Microsoft.Xrm.Sdk.EntityReference ModifiedOnBehalfBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("modifiedonbehalfby");
+			}
+		}
+		
+		/// <summary>
+		/// Date and time that the record was migrated.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("overriddencreatedon")]
+		public System.Nullable<System.DateTime> OverriddenCreatedOn
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.DateTime>>("overriddencreatedon");
+			}
+			set
+			{
+				this.OnPropertyChanging("OverriddenCreatedOn");
+				this.SetAttributeValue("overriddencreatedon", value);
+				this.OnPropertyChanged("OverriddenCreatedOn");
+			}
+		}
+		
+		/// <summary>
+		/// Owner Id
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("ownerid")]
+		public Microsoft.Xrm.Sdk.EntityReference OwnerId
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("ownerid");
+			}
+			set
+			{
+				this.OnPropertyChanging("OwnerId");
+				this.SetAttributeValue("ownerid", value);
+				this.OnPropertyChanged("OwnerId");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for the business unit that owns the record
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owningbusinessunit")]
+		public Microsoft.Xrm.Sdk.EntityReference OwningBusinessUnit
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("owningbusinessunit");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for the team that owns the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owningteam")]
+		public Microsoft.Xrm.Sdk.EntityReference OwningTeam
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("owningteam");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for the user that owns the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owninguser")]
+		public Microsoft.Xrm.Sdk.EntityReference OwningUser
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("owninguser");
+			}
+		}
+		
+		/// <summary>
+		/// Status of the Interview
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statecode")]
+		public System.Nullable<AKL.Dynamics365.Entities.bru_interviewState> statecode
+		{
+			get
+			{
+				Microsoft.Xrm.Sdk.OptionSetValue optionSet = this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("statecode");
+				if ((optionSet != null))
+				{
+					return ((AKL.Dynamics365.Entities.bru_interviewState)(System.Enum.ToObject(typeof(AKL.Dynamics365.Entities.bru_interviewState), optionSet.Value)));
+				}
+				else
+				{
+					return null;
+				}
+			}
+			set
+			{
+				this.OnPropertyChanging("statecode");
+				if ((value == null))
+				{
+					this.SetAttributeValue("statecode", null);
+				}
+				else
+				{
+					this.SetAttributeValue("statecode", new Microsoft.Xrm.Sdk.OptionSetValue(((int)(value))));
+				}
+				this.OnPropertyChanged("statecode");
+			}
+		}
+		
+		/// <summary>
+		/// Reason for the status of the Interview
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statuscode")]
+		public System.Nullable<AKL.Dynamics365.Entities.bru_interview_statuscode> statuscode
+		{
+			get
+			{
+				Microsoft.Xrm.Sdk.OptionSetValue optionSet = this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("statuscode");
+				if ((optionSet != null))
+				{
+					return ((AKL.Dynamics365.Entities.bru_interview_statuscode)(System.Enum.ToObject(typeof(AKL.Dynamics365.Entities.bru_interview_statuscode), optionSet.Value)));
+				}
+				else
+				{
+					return null;
+				}
+			}
+			set
+			{
+				this.OnPropertyChanging("statuscode");
+				if ((value == null))
+				{
+					this.SetAttributeValue("statuscode", null);
+				}
+				else
+				{
+					this.SetAttributeValue("statuscode", new Microsoft.Xrm.Sdk.OptionSetValue(((int)(value))));
+				}
+				this.OnPropertyChanged("statuscode");
+			}
+		}
+		
+		/// <summary>
+		/// For internal use only.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("timezoneruleversionnumber")]
+		public System.Nullable<int> TimeZoneRuleVersionNumber
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<int>>("timezoneruleversionnumber");
+			}
+			set
+			{
+				this.OnPropertyChanging("TimeZoneRuleVersionNumber");
+				this.SetAttributeValue("timezoneruleversionnumber", value);
+				this.OnPropertyChanged("TimeZoneRuleVersionNumber");
+			}
+		}
+		
+		/// <summary>
+		/// Time zone code that was in use when the record was created.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("utcconversiontimezonecode")]
+		public System.Nullable<int> UTCConversionTimeZoneCode
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<int>>("utcconversiontimezonecode");
+			}
+			set
+			{
+				this.OnPropertyChanging("UTCConversionTimeZoneCode");
+				this.SetAttributeValue("utcconversiontimezonecode", value);
+				this.OnPropertyChanged("UTCConversionTimeZoneCode");
+			}
+		}
+		
+		/// <summary>
+		/// Version Number
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("versionnumber")]
+		public System.Nullable<long> VersionNumber
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<long>>("versionnumber");
+			}
+		}
+		
+		/// <summary>
+		/// 1:N bru_bru_interview_bru_interviewquestion
+		/// </summary>
+		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("bru_bru_interview_bru_interviewquestion")]
+		public System.Collections.Generic.IEnumerable<AKL.Dynamics365.Entities.bru_interviewquestion> bru_bru_interview_bru_interviewquestion
+		{
+			get
+			{
+				return this.GetRelatedEntities<AKL.Dynamics365.Entities.bru_interviewquestion>("bru_bru_interview_bru_interviewquestion", null);
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_bru_interview_bru_interviewquestion");
+				this.SetRelatedEntities<AKL.Dynamics365.Entities.bru_interviewquestion>("bru_bru_interview_bru_interviewquestion", null, value);
+				this.OnPropertyChanged("bru_bru_interview_bru_interviewquestion");
+			}
+		}
+		
+		/// <summary>
+		/// N:1 bru_bru_interview_process_bru_interview
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_interviewsid")]
+		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("bru_bru_interview_process_bru_interview")]
+		public AKL.Dynamics365.Entities.bru_interview_process bru_bru_interview_process_bru_interview
+		{
+			get
+			{
+				return this.GetRelatedEntity<AKL.Dynamics365.Entities.bru_interview_process>("bru_bru_interview_process_bru_interview", null);
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_bru_interview_process_bru_interview");
+				this.SetRelatedEntity<AKL.Dynamics365.Entities.bru_interview_process>("bru_bru_interview_process_bru_interview", null, value);
+				this.OnPropertyChanged("bru_bru_interview_process_bru_interview");
+			}
+		}
+		
+		/// <summary>
+		/// N:1 bru_bru_jobrole_bru_interview_JobRole
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_jobrole")]
+		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("bru_bru_jobrole_bru_interview_JobRole")]
+		public AKL.Dynamics365.Entities.bru_jobrole bru_bru_jobrole_bru_interview_JobRole
+		{
+			get
+			{
+				return this.GetRelatedEntity<AKL.Dynamics365.Entities.bru_jobrole>("bru_bru_jobrole_bru_interview_JobRole", null);
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_bru_jobrole_bru_interview_JobRole");
+				this.SetRelatedEntity<AKL.Dynamics365.Entities.bru_jobrole>("bru_bru_jobrole_bru_interview_JobRole", null, value);
+				this.OnPropertyChanged("bru_bru_jobrole_bru_interview_JobRole");
+			}
+		}
+		
+		/// <summary>
+		/// N:1 bru_contact_bru_interview_Candidate
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_candidate")]
+		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("bru_contact_bru_interview_Candidate")]
+		public AKL.Dynamics365.Entities.Contact bru_contact_bru_interview_Candidate
+		{
+			get
+			{
+				return this.GetRelatedEntity<AKL.Dynamics365.Entities.Contact>("bru_contact_bru_interview_Candidate", null);
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_contact_bru_interview_Candidate");
+				this.SetRelatedEntity<AKL.Dynamics365.Entities.Contact>("bru_contact_bru_interview_Candidate", null, value);
+				this.OnPropertyChanged("bru_contact_bru_interview_Candidate");
+			}
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum bru_interview_processState
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Active = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Inactive = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum bru_interview_process_statuscode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Active = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Inactive = 2,
+	}
+	
+	/// <summary>
+	/// 
+	/// </summary>
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[Microsoft.Xrm.Sdk.Client.EntityLogicalNameAttribute("bru_interview_process")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public partial class bru_interview_process : Microsoft.Xrm.Sdk.Entity, System.ComponentModel.INotifyPropertyChanging, System.ComponentModel.INotifyPropertyChanged
+	{
+		
+		/// <summary>
+		/// Default Constructor.
+		/// </summary>
+		public bru_interview_process() : 
+				base(EntityLogicalName)
+		{
+		}
+		
+		public const string EntityLogicalName = "bru_interview_process";
+		
+		public const int EntityTypeCode = 10540;
+		
+		public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+		
+		public event System.ComponentModel.PropertyChangingEventHandler PropertyChanging;
+		
+		private void OnPropertyChanged(string propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+			}
+		}
+		
+		private void OnPropertyChanging(string propertyName)
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, new System.ComponentModel.PropertyChangingEventArgs(propertyName));
+			}
+		}
+		
+		/// <summary>
+		/// 
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_candidate")]
+		public Microsoft.Xrm.Sdk.EntityReference bru_candidate
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("bru_candidate");
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_candidate");
+				this.SetAttributeValue("bru_candidate", value);
+				this.OnPropertyChanged("bru_candidate");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for entity instances
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_interview_processid")]
+		public System.Nullable<System.Guid> bru_interview_processId
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.Guid>>("bru_interview_processid");
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_interview_processId");
+				this.SetAttributeValue("bru_interview_processid", value);
+				if (value.HasValue)
+				{
+					base.Id = value.Value;
+				}
+				else
+				{
+					base.Id = System.Guid.Empty;
+				}
+				this.OnPropertyChanged("bru_interview_processId");
+			}
+		}
+		
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_interview_processid")]
+		public override System.Guid Id
+		{
+			get
+			{
+				return base.Id;
+			}
+			set
+			{
+				this.bru_interview_processId = value;
+			}
+		}
+		
+		/// <summary>
+		/// 
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_jobrole")]
+		public Microsoft.Xrm.Sdk.EntityReference bru_JobRole
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("bru_jobrole");
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_JobRole");
+				this.SetAttributeValue("bru_jobrole", value);
+				this.OnPropertyChanged("bru_JobRole");
+			}
+		}
+		
+		/// <summary>
+		/// The name of the custom entity.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_name")]
+		public string bru_name
+		{
+			get
+			{
+				return this.GetAttributeValue<string>("bru_name");
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_name");
+				this.SetAttributeValue("bru_name", value);
+				this.OnPropertyChanged("bru_name");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the user who created the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("createdby")]
+		public Microsoft.Xrm.Sdk.EntityReference CreatedBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("createdby");
+			}
+		}
+		
+		/// <summary>
+		/// Date and time when the record was created.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("createdon")]
+		public System.Nullable<System.DateTime> CreatedOn
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.DateTime>>("createdon");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the delegate user who created the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("createdonbehalfby")]
+		public Microsoft.Xrm.Sdk.EntityReference CreatedOnBehalfBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("createdonbehalfby");
+			}
+		}
+		
+		/// <summary>
+		/// Sequence number of the import that created this record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("importsequencenumber")]
+		public System.Nullable<int> ImportSequenceNumber
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<int>>("importsequencenumber");
+			}
+			set
+			{
+				this.OnPropertyChanging("ImportSequenceNumber");
+				this.SetAttributeValue("importsequencenumber", value);
+				this.OnPropertyChanged("ImportSequenceNumber");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the user who modified the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("modifiedby")]
+		public Microsoft.Xrm.Sdk.EntityReference ModifiedBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("modifiedby");
+			}
+		}
+		
+		/// <summary>
+		/// Date and time when the record was modified.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("modifiedon")]
+		public System.Nullable<System.DateTime> ModifiedOn
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.DateTime>>("modifiedon");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the delegate user who modified the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("modifiedonbehalfby")]
+		public Microsoft.Xrm.Sdk.EntityReference ModifiedOnBehalfBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("modifiedonbehalfby");
+			}
+		}
+		
+		/// <summary>
+		/// Date and time that the record was migrated.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("overriddencreatedon")]
+		public System.Nullable<System.DateTime> OverriddenCreatedOn
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.DateTime>>("overriddencreatedon");
+			}
+			set
+			{
+				this.OnPropertyChanging("OverriddenCreatedOn");
+				this.SetAttributeValue("overriddencreatedon", value);
+				this.OnPropertyChanged("OverriddenCreatedOn");
+			}
+		}
+		
+		/// <summary>
+		/// Owner Id
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("ownerid")]
+		public Microsoft.Xrm.Sdk.EntityReference OwnerId
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("ownerid");
+			}
+			set
+			{
+				this.OnPropertyChanging("OwnerId");
+				this.SetAttributeValue("ownerid", value);
+				this.OnPropertyChanged("OwnerId");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for the business unit that owns the record
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owningbusinessunit")]
+		public Microsoft.Xrm.Sdk.EntityReference OwningBusinessUnit
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("owningbusinessunit");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for the team that owns the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owningteam")]
+		public Microsoft.Xrm.Sdk.EntityReference OwningTeam
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("owningteam");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for the user that owns the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owninguser")]
+		public Microsoft.Xrm.Sdk.EntityReference OwningUser
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("owninguser");
+			}
+		}
+		
+		/// <summary>
+		/// Contains the id of the process associated with the entity.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("processid")]
+		public System.Nullable<System.Guid> processid
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.Guid>>("processid");
+			}
+			set
+			{
+				this.OnPropertyChanging("processid");
+				this.SetAttributeValue("processid", value);
+				this.OnPropertyChanged("processid");
+			}
+		}
+		
+		/// <summary>
+		/// Contains the id of the stage where the entity is located.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("stageid")]
+		public System.Nullable<System.Guid> stageid
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.Guid>>("stageid");
+			}
+			set
+			{
+				this.OnPropertyChanging("stageid");
+				this.SetAttributeValue("stageid", value);
+				this.OnPropertyChanged("stageid");
+			}
+		}
+		
+		/// <summary>
+		/// Status of the interview_process
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statecode")]
+		public System.Nullable<AKL.Dynamics365.Entities.bru_interview_processState> statecode
+		{
+			get
+			{
+				Microsoft.Xrm.Sdk.OptionSetValue optionSet = this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("statecode");
+				if ((optionSet != null))
+				{
+					return ((AKL.Dynamics365.Entities.bru_interview_processState)(System.Enum.ToObject(typeof(AKL.Dynamics365.Entities.bru_interview_processState), optionSet.Value)));
+				}
+				else
+				{
+					return null;
+				}
+			}
+			set
+			{
+				this.OnPropertyChanging("statecode");
+				if ((value == null))
+				{
+					this.SetAttributeValue("statecode", null);
+				}
+				else
+				{
+					this.SetAttributeValue("statecode", new Microsoft.Xrm.Sdk.OptionSetValue(((int)(value))));
+				}
+				this.OnPropertyChanged("statecode");
+			}
+		}
+		
+		/// <summary>
+		/// Reason for the status of the interview_process
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statuscode")]
+		public System.Nullable<AKL.Dynamics365.Entities.bru_interview_process_statuscode> statuscode
+		{
+			get
+			{
+				Microsoft.Xrm.Sdk.OptionSetValue optionSet = this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("statuscode");
+				if ((optionSet != null))
+				{
+					return ((AKL.Dynamics365.Entities.bru_interview_process_statuscode)(System.Enum.ToObject(typeof(AKL.Dynamics365.Entities.bru_interview_process_statuscode), optionSet.Value)));
+				}
+				else
+				{
+					return null;
+				}
+			}
+			set
+			{
+				this.OnPropertyChanging("statuscode");
+				if ((value == null))
+				{
+					this.SetAttributeValue("statuscode", null);
+				}
+				else
+				{
+					this.SetAttributeValue("statuscode", new Microsoft.Xrm.Sdk.OptionSetValue(((int)(value))));
+				}
+				this.OnPropertyChanged("statuscode");
+			}
+		}
+		
+		/// <summary>
+		/// For internal use only.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("timezoneruleversionnumber")]
+		public System.Nullable<int> TimeZoneRuleVersionNumber
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<int>>("timezoneruleversionnumber");
+			}
+			set
+			{
+				this.OnPropertyChanging("TimeZoneRuleVersionNumber");
+				this.SetAttributeValue("timezoneruleversionnumber", value);
+				this.OnPropertyChanged("TimeZoneRuleVersionNumber");
+			}
+		}
+		
+		/// <summary>
+		/// A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("traversedpath")]
+		public string traversedpath
+		{
+			get
+			{
+				return this.GetAttributeValue<string>("traversedpath");
+			}
+			set
+			{
+				this.OnPropertyChanging("traversedpath");
+				this.SetAttributeValue("traversedpath", value);
+				this.OnPropertyChanged("traversedpath");
+			}
+		}
+		
+		/// <summary>
+		/// Time zone code that was in use when the record was created.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("utcconversiontimezonecode")]
+		public System.Nullable<int> UTCConversionTimeZoneCode
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<int>>("utcconversiontimezonecode");
+			}
+			set
+			{
+				this.OnPropertyChanging("UTCConversionTimeZoneCode");
+				this.SetAttributeValue("utcconversiontimezonecode", value);
+				this.OnPropertyChanged("UTCConversionTimeZoneCode");
+			}
+		}
+		
+		/// <summary>
+		/// Version Number
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("versionnumber")]
+		public System.Nullable<long> VersionNumber
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<long>>("versionnumber");
+			}
+		}
+		
+		/// <summary>
+		/// 1:N bru_bru_interview_process_bru_interview
+		/// </summary>
+		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("bru_bru_interview_process_bru_interview")]
+		public System.Collections.Generic.IEnumerable<AKL.Dynamics365.Entities.bru_interview> bru_bru_interview_process_bru_interview
+		{
+			get
+			{
+				return this.GetRelatedEntities<AKL.Dynamics365.Entities.bru_interview>("bru_bru_interview_process_bru_interview", null);
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_bru_interview_process_bru_interview");
+				this.SetRelatedEntities<AKL.Dynamics365.Entities.bru_interview>("bru_bru_interview_process_bru_interview", null, value);
+				this.OnPropertyChanged("bru_bru_interview_process_bru_interview");
+			}
+		}
+		
+		/// <summary>
+		/// 1:N bru_bru_interview_process_bru_personalintervi
+		/// </summary>
+		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("bru_bru_interview_process_bru_personalintervi")]
+		public System.Collections.Generic.IEnumerable<AKL.Dynamics365.Entities.bru_personalinterview> bru_bru_interview_process_bru_personalintervi
+		{
+			get
+			{
+				return this.GetRelatedEntities<AKL.Dynamics365.Entities.bru_personalinterview>("bru_bru_interview_process_bru_personalintervi", null);
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_bru_interview_process_bru_personalintervi");
+				this.SetRelatedEntities<AKL.Dynamics365.Entities.bru_personalinterview>("bru_bru_interview_process_bru_personalintervi", null, value);
+				this.OnPropertyChanged("bru_bru_interview_process_bru_personalintervi");
+			}
+		}
+		
+		/// <summary>
+		/// N:1 bru_bru_jobrole_bru_interview_process_JobRole
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_jobrole")]
+		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("bru_bru_jobrole_bru_interview_process_JobRole")]
+		public AKL.Dynamics365.Entities.bru_jobrole bru_bru_jobrole_bru_interview_process_JobRole
+		{
+			get
+			{
+				return this.GetRelatedEntity<AKL.Dynamics365.Entities.bru_jobrole>("bru_bru_jobrole_bru_interview_process_JobRole", null);
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_bru_jobrole_bru_interview_process_JobRole");
+				this.SetRelatedEntity<AKL.Dynamics365.Entities.bru_jobrole>("bru_bru_jobrole_bru_interview_process_JobRole", null, value);
+				this.OnPropertyChanged("bru_bru_jobrole_bru_interview_process_JobRole");
+			}
+		}
+		
+		/// <summary>
+		/// N:1 bru_contact_bru_interview_process_candidate
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_candidate")]
+		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("bru_contact_bru_interview_process_candidate")]
+		public AKL.Dynamics365.Entities.Contact bru_contact_bru_interview_process_candidate
+		{
+			get
+			{
+				return this.GetRelatedEntity<AKL.Dynamics365.Entities.Contact>("bru_contact_bru_interview_process_candidate", null);
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_contact_bru_interview_process_candidate");
+				this.SetRelatedEntity<AKL.Dynamics365.Entities.Contact>("bru_contact_bru_interview_process_candidate", null, value);
+				this.OnPropertyChanged("bru_contact_bru_interview_process_candidate");
+			}
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum bru_interviewquestionState
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Active = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Inactive = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum bru_interviewquestion_statuscode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Active = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Inactive = 2,
+	}
+	
+	/// <summary>
+	/// 
+	/// </summary>
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[Microsoft.Xrm.Sdk.Client.EntityLogicalNameAttribute("bru_interviewquestion")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public partial class bru_interviewquestion : Microsoft.Xrm.Sdk.Entity, System.ComponentModel.INotifyPropertyChanging, System.ComponentModel.INotifyPropertyChanged
+	{
+		
+		/// <summary>
+		/// Default Constructor.
+		/// </summary>
+		public bru_interviewquestion() : 
+				base(EntityLogicalName)
+		{
+		}
+		
+		public const string EntityLogicalName = "bru_interviewquestion";
+		
+		public const int EntityTypeCode = 10543;
+		
+		public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+		
+		public event System.ComponentModel.PropertyChangingEventHandler PropertyChanging;
+		
+		private void OnPropertyChanged(string propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+			}
+		}
+		
+		private void OnPropertyChanging(string propertyName)
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, new System.ComponentModel.PropertyChangingEventArgs(propertyName));
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for entity instances
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_interviewquestionid")]
+		public System.Nullable<System.Guid> bru_interviewquestionId
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.Guid>>("bru_interviewquestionid");
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_interviewquestionId");
+				this.SetAttributeValue("bru_interviewquestionid", value);
+				if (value.HasValue)
+				{
+					base.Id = value.Value;
+				}
+				else
+				{
+					base.Id = System.Guid.Empty;
+				}
+				this.OnPropertyChanged("bru_interviewquestionId");
+			}
+		}
+		
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_interviewquestionid")]
+		public override System.Guid Id
+		{
+			get
+			{
+				return base.Id;
+			}
+			set
+			{
+				this.bru_interviewquestionId = value;
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for Interview associated with Interview Question.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_interviewquestionsid")]
+		public Microsoft.Xrm.Sdk.EntityReference bru_InterviewQuestionsId
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("bru_interviewquestionsid");
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_InterviewQuestionsId");
+				this.SetAttributeValue("bru_interviewquestionsid", value);
+				this.OnPropertyChanged("bru_InterviewQuestionsId");
+			}
+		}
+		
+		/// <summary>
+		/// The name of the custom entity.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_name")]
+		public string bru_name
+		{
+			get
+			{
+				return this.GetAttributeValue<string>("bru_name");
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_name");
+				this.SetAttributeValue("bru_name", value);
+				this.OnPropertyChanged("bru_name");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the user who created the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("createdby")]
+		public Microsoft.Xrm.Sdk.EntityReference CreatedBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("createdby");
+			}
+		}
+		
+		/// <summary>
+		/// Date and time when the record was created.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("createdon")]
+		public System.Nullable<System.DateTime> CreatedOn
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.DateTime>>("createdon");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the delegate user who created the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("createdonbehalfby")]
+		public Microsoft.Xrm.Sdk.EntityReference CreatedOnBehalfBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("createdonbehalfby");
+			}
+		}
+		
+		/// <summary>
+		/// Sequence number of the import that created this record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("importsequencenumber")]
+		public System.Nullable<int> ImportSequenceNumber
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<int>>("importsequencenumber");
+			}
+			set
+			{
+				this.OnPropertyChanging("ImportSequenceNumber");
+				this.SetAttributeValue("importsequencenumber", value);
+				this.OnPropertyChanged("ImportSequenceNumber");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the user who modified the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("modifiedby")]
+		public Microsoft.Xrm.Sdk.EntityReference ModifiedBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("modifiedby");
+			}
+		}
+		
+		/// <summary>
+		/// Date and time when the record was modified.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("modifiedon")]
+		public System.Nullable<System.DateTime> ModifiedOn
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.DateTime>>("modifiedon");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the delegate user who modified the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("modifiedonbehalfby")]
+		public Microsoft.Xrm.Sdk.EntityReference ModifiedOnBehalfBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("modifiedonbehalfby");
+			}
+		}
+		
+		/// <summary>
+		/// Date and time that the record was migrated.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("overriddencreatedon")]
+		public System.Nullable<System.DateTime> OverriddenCreatedOn
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.DateTime>>("overriddencreatedon");
+			}
+			set
+			{
+				this.OnPropertyChanging("OverriddenCreatedOn");
+				this.SetAttributeValue("overriddencreatedon", value);
+				this.OnPropertyChanged("OverriddenCreatedOn");
+			}
+		}
+		
+		/// <summary>
+		/// Owner Id
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("ownerid")]
+		public Microsoft.Xrm.Sdk.EntityReference OwnerId
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("ownerid");
+			}
+			set
+			{
+				this.OnPropertyChanging("OwnerId");
+				this.SetAttributeValue("ownerid", value);
+				this.OnPropertyChanged("OwnerId");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for the business unit that owns the record
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owningbusinessunit")]
+		public Microsoft.Xrm.Sdk.EntityReference OwningBusinessUnit
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("owningbusinessunit");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for the team that owns the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owningteam")]
+		public Microsoft.Xrm.Sdk.EntityReference OwningTeam
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("owningteam");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for the user that owns the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owninguser")]
+		public Microsoft.Xrm.Sdk.EntityReference OwningUser
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("owninguser");
+			}
+		}
+		
+		/// <summary>
+		/// Status of the Interview Question
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statecode")]
+		public System.Nullable<AKL.Dynamics365.Entities.bru_interviewquestionState> statecode
+		{
+			get
+			{
+				Microsoft.Xrm.Sdk.OptionSetValue optionSet = this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("statecode");
+				if ((optionSet != null))
+				{
+					return ((AKL.Dynamics365.Entities.bru_interviewquestionState)(System.Enum.ToObject(typeof(AKL.Dynamics365.Entities.bru_interviewquestionState), optionSet.Value)));
+				}
+				else
+				{
+					return null;
+				}
+			}
+			set
+			{
+				this.OnPropertyChanging("statecode");
+				if ((value == null))
+				{
+					this.SetAttributeValue("statecode", null);
+				}
+				else
+				{
+					this.SetAttributeValue("statecode", new Microsoft.Xrm.Sdk.OptionSetValue(((int)(value))));
+				}
+				this.OnPropertyChanged("statecode");
+			}
+		}
+		
+		/// <summary>
+		/// Reason for the status of the Interview Question
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statuscode")]
+		public System.Nullable<AKL.Dynamics365.Entities.bru_interviewquestion_statuscode> statuscode
+		{
+			get
+			{
+				Microsoft.Xrm.Sdk.OptionSetValue optionSet = this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("statuscode");
+				if ((optionSet != null))
+				{
+					return ((AKL.Dynamics365.Entities.bru_interviewquestion_statuscode)(System.Enum.ToObject(typeof(AKL.Dynamics365.Entities.bru_interviewquestion_statuscode), optionSet.Value)));
+				}
+				else
+				{
+					return null;
+				}
+			}
+			set
+			{
+				this.OnPropertyChanging("statuscode");
+				if ((value == null))
+				{
+					this.SetAttributeValue("statuscode", null);
+				}
+				else
+				{
+					this.SetAttributeValue("statuscode", new Microsoft.Xrm.Sdk.OptionSetValue(((int)(value))));
+				}
+				this.OnPropertyChanged("statuscode");
+			}
+		}
+		
+		/// <summary>
+		/// For internal use only.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("timezoneruleversionnumber")]
+		public System.Nullable<int> TimeZoneRuleVersionNumber
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<int>>("timezoneruleversionnumber");
+			}
+			set
+			{
+				this.OnPropertyChanging("TimeZoneRuleVersionNumber");
+				this.SetAttributeValue("timezoneruleversionnumber", value);
+				this.OnPropertyChanged("TimeZoneRuleVersionNumber");
+			}
+		}
+		
+		/// <summary>
+		/// Time zone code that was in use when the record was created.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("utcconversiontimezonecode")]
+		public System.Nullable<int> UTCConversionTimeZoneCode
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<int>>("utcconversiontimezonecode");
+			}
+			set
+			{
+				this.OnPropertyChanging("UTCConversionTimeZoneCode");
+				this.SetAttributeValue("utcconversiontimezonecode", value);
+				this.OnPropertyChanged("UTCConversionTimeZoneCode");
+			}
+		}
+		
+		/// <summary>
+		/// Version Number
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("versionnumber")]
+		public System.Nullable<long> VersionNumber
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<long>>("versionnumber");
+			}
+		}
+		
+		/// <summary>
+		/// N:1 bru_bru_interview_bru_interviewquestion
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_interviewquestionsid")]
+		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("bru_bru_interview_bru_interviewquestion")]
+		public AKL.Dynamics365.Entities.bru_interview bru_bru_interview_bru_interviewquestion
+		{
+			get
+			{
+				return this.GetRelatedEntity<AKL.Dynamics365.Entities.bru_interview>("bru_bru_interview_bru_interviewquestion", null);
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_bru_interview_bru_interviewquestion");
+				this.SetRelatedEntity<AKL.Dynamics365.Entities.bru_interview>("bru_bru_interview_bru_interviewquestion", null, value);
+				this.OnPropertyChanged("bru_bru_interview_bru_interviewquestion");
+			}
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum bru_jobapplicationState
 	{
 		
@@ -3838,7 +11428,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum bru_jobapplication_statuscode
 	{
 		
@@ -3857,7 +11447,7 @@ namespace AKL.Dynamics365.Entities
 	/// </summary>
 	[System.Runtime.Serialization.DataContractAttribute()]
 	[Microsoft.Xrm.Sdk.Client.EntityLogicalNameAttribute("bru_jobapplication")]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public partial class bru_jobapplication : Microsoft.Xrm.Sdk.Entity, System.ComponentModel.INotifyPropertyChanging, System.ComponentModel.INotifyPropertyChanged
 	{
 		
@@ -4281,6 +11871,25 @@ namespace AKL.Dynamics365.Entities
 		}
 		
 		/// <summary>
+		/// N:1 bru_bru_jobrole_bru_jobapplication_JobRole
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_jobrole")]
+		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("bru_bru_jobrole_bru_jobapplication_JobRole")]
+		public AKL.Dynamics365.Entities.bru_jobrole bru_bru_jobrole_bru_jobapplication_JobRole
+		{
+			get
+			{
+				return this.GetRelatedEntity<AKL.Dynamics365.Entities.bru_jobrole>("bru_bru_jobrole_bru_jobapplication_JobRole", null);
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_bru_jobrole_bru_jobapplication_JobRole");
+				this.SetRelatedEntity<AKL.Dynamics365.Entities.bru_jobrole>("bru_bru_jobrole_bru_jobapplication_JobRole", null, value);
+				this.OnPropertyChanged("bru_bru_jobrole_bru_jobapplication_JobRole");
+			}
+		}
+		
+		/// <summary>
 		/// N:1 bru_contact_bru_jobapplication_Applicant
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_applicant")]
@@ -4301,7 +11910,1574 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum bru_jobroleState
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Active = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Inactive = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum bru_jobrole_statuscode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Active = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Inactive = 2,
+	}
+	
+	/// <summary>
+	/// 
+	/// </summary>
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[Microsoft.Xrm.Sdk.Client.EntityLogicalNameAttribute("bru_jobrole")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public partial class bru_jobrole : Microsoft.Xrm.Sdk.Entity, System.ComponentModel.INotifyPropertyChanging, System.ComponentModel.INotifyPropertyChanged
+	{
+		
+		/// <summary>
+		/// Default Constructor.
+		/// </summary>
+		public bru_jobrole() : 
+				base(EntityLogicalName)
+		{
+		}
+		
+		public const string EntityLogicalName = "bru_jobrole";
+		
+		public const int EntityTypeCode = 10542;
+		
+		public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+		
+		public event System.ComponentModel.PropertyChangingEventHandler PropertyChanging;
+		
+		private void OnPropertyChanged(string propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+			}
+		}
+		
+		private void OnPropertyChanging(string propertyName)
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, new System.ComponentModel.PropertyChangingEventArgs(propertyName));
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for entity instances
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_jobroleid")]
+		public System.Nullable<System.Guid> bru_jobroleId
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.Guid>>("bru_jobroleid");
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_jobroleId");
+				this.SetAttributeValue("bru_jobroleid", value);
+				if (value.HasValue)
+				{
+					base.Id = value.Value;
+				}
+				else
+				{
+					base.Id = System.Guid.Empty;
+				}
+				this.OnPropertyChanged("bru_jobroleId");
+			}
+		}
+		
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_jobroleid")]
+		public override System.Guid Id
+		{
+			get
+			{
+				return base.Id;
+			}
+			set
+			{
+				this.bru_jobroleId = value;
+			}
+		}
+		
+		/// <summary>
+		/// The name of the custom entity.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_name")]
+		public string bru_name
+		{
+			get
+			{
+				return this.GetAttributeValue<string>("bru_name");
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_name");
+				this.SetAttributeValue("bru_name", value);
+				this.OnPropertyChanged("bru_name");
+			}
+		}
+		
+		/// <summary>
+		/// 
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_personalinterview")]
+		public System.Nullable<bool> bru_PersonalInterview
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<bool>>("bru_personalinterview");
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_PersonalInterview");
+				this.SetAttributeValue("bru_personalinterview", value);
+				this.OnPropertyChanged("bru_PersonalInterview");
+			}
+		}
+		
+		/// <summary>
+		/// 
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_personalinterviewtype")]
+		public System.Nullable<AKL.Dynamics365.Entities.bru_personalinterviewtype> bru_PersonalInterviewType
+		{
+			get
+			{
+				Microsoft.Xrm.Sdk.OptionSetValue optionSet = this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("bru_personalinterviewtype");
+				if ((optionSet != null))
+				{
+					return ((AKL.Dynamics365.Entities.bru_personalinterviewtype)(System.Enum.ToObject(typeof(AKL.Dynamics365.Entities.bru_personalinterviewtype), optionSet.Value)));
+				}
+				else
+				{
+					return null;
+				}
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_PersonalInterviewType");
+				if ((value == null))
+				{
+					this.SetAttributeValue("bru_personalinterviewtype", null);
+				}
+				else
+				{
+					this.SetAttributeValue("bru_personalinterviewtype", new Microsoft.Xrm.Sdk.OptionSetValue(((int)(value))));
+				}
+				this.OnPropertyChanged("bru_PersonalInterviewType");
+			}
+		}
+		
+		/// <summary>
+		/// 
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_technicalinterview")]
+		public System.Nullable<bool> bru_TechnicalInterview
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<bool>>("bru_technicalinterview");
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_TechnicalInterview");
+				this.SetAttributeValue("bru_technicalinterview", value);
+				this.OnPropertyChanged("bru_TechnicalInterview");
+			}
+		}
+		
+		/// <summary>
+		/// 
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_technicalinterviewtype")]
+		public System.Nullable<AKL.Dynamics365.Entities.bru_technicalinterviewtype> bru_TechnicalInterviewtype
+		{
+			get
+			{
+				Microsoft.Xrm.Sdk.OptionSetValue optionSet = this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("bru_technicalinterviewtype");
+				if ((optionSet != null))
+				{
+					return ((AKL.Dynamics365.Entities.bru_technicalinterviewtype)(System.Enum.ToObject(typeof(AKL.Dynamics365.Entities.bru_technicalinterviewtype), optionSet.Value)));
+				}
+				else
+				{
+					return null;
+				}
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_TechnicalInterviewtype");
+				if ((value == null))
+				{
+					this.SetAttributeValue("bru_technicalinterviewtype", null);
+				}
+				else
+				{
+					this.SetAttributeValue("bru_technicalinterviewtype", new Microsoft.Xrm.Sdk.OptionSetValue(((int)(value))));
+				}
+				this.OnPropertyChanged("bru_TechnicalInterviewtype");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the user who created the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("createdby")]
+		public Microsoft.Xrm.Sdk.EntityReference CreatedBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("createdby");
+			}
+		}
+		
+		/// <summary>
+		/// Date and time when the record was created.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("createdon")]
+		public System.Nullable<System.DateTime> CreatedOn
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.DateTime>>("createdon");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the delegate user who created the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("createdonbehalfby")]
+		public Microsoft.Xrm.Sdk.EntityReference CreatedOnBehalfBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("createdonbehalfby");
+			}
+		}
+		
+		/// <summary>
+		/// Sequence number of the import that created this record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("importsequencenumber")]
+		public System.Nullable<int> ImportSequenceNumber
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<int>>("importsequencenumber");
+			}
+			set
+			{
+				this.OnPropertyChanging("ImportSequenceNumber");
+				this.SetAttributeValue("importsequencenumber", value);
+				this.OnPropertyChanged("ImportSequenceNumber");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the user who modified the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("modifiedby")]
+		public Microsoft.Xrm.Sdk.EntityReference ModifiedBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("modifiedby");
+			}
+		}
+		
+		/// <summary>
+		/// Date and time when the record was modified.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("modifiedon")]
+		public System.Nullable<System.DateTime> ModifiedOn
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.DateTime>>("modifiedon");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the delegate user who modified the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("modifiedonbehalfby")]
+		public Microsoft.Xrm.Sdk.EntityReference ModifiedOnBehalfBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("modifiedonbehalfby");
+			}
+		}
+		
+		/// <summary>
+		/// Date and time that the record was migrated.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("overriddencreatedon")]
+		public System.Nullable<System.DateTime> OverriddenCreatedOn
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.DateTime>>("overriddencreatedon");
+			}
+			set
+			{
+				this.OnPropertyChanging("OverriddenCreatedOn");
+				this.SetAttributeValue("overriddencreatedon", value);
+				this.OnPropertyChanged("OverriddenCreatedOn");
+			}
+		}
+		
+		/// <summary>
+		/// Owner Id
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("ownerid")]
+		public Microsoft.Xrm.Sdk.EntityReference OwnerId
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("ownerid");
+			}
+			set
+			{
+				this.OnPropertyChanging("OwnerId");
+				this.SetAttributeValue("ownerid", value);
+				this.OnPropertyChanged("OwnerId");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for the business unit that owns the record
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owningbusinessunit")]
+		public Microsoft.Xrm.Sdk.EntityReference OwningBusinessUnit
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("owningbusinessunit");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for the team that owns the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owningteam")]
+		public Microsoft.Xrm.Sdk.EntityReference OwningTeam
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("owningteam");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for the user that owns the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owninguser")]
+		public Microsoft.Xrm.Sdk.EntityReference OwningUser
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("owninguser");
+			}
+		}
+		
+		/// <summary>
+		/// Status of the Job Role
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statecode")]
+		public System.Nullable<AKL.Dynamics365.Entities.bru_jobroleState> statecode
+		{
+			get
+			{
+				Microsoft.Xrm.Sdk.OptionSetValue optionSet = this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("statecode");
+				if ((optionSet != null))
+				{
+					return ((AKL.Dynamics365.Entities.bru_jobroleState)(System.Enum.ToObject(typeof(AKL.Dynamics365.Entities.bru_jobroleState), optionSet.Value)));
+				}
+				else
+				{
+					return null;
+				}
+			}
+			set
+			{
+				this.OnPropertyChanging("statecode");
+				if ((value == null))
+				{
+					this.SetAttributeValue("statecode", null);
+				}
+				else
+				{
+					this.SetAttributeValue("statecode", new Microsoft.Xrm.Sdk.OptionSetValue(((int)(value))));
+				}
+				this.OnPropertyChanged("statecode");
+			}
+		}
+		
+		/// <summary>
+		/// Reason for the status of the Job Role
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statuscode")]
+		public System.Nullable<AKL.Dynamics365.Entities.bru_jobrole_statuscode> statuscode
+		{
+			get
+			{
+				Microsoft.Xrm.Sdk.OptionSetValue optionSet = this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("statuscode");
+				if ((optionSet != null))
+				{
+					return ((AKL.Dynamics365.Entities.bru_jobrole_statuscode)(System.Enum.ToObject(typeof(AKL.Dynamics365.Entities.bru_jobrole_statuscode), optionSet.Value)));
+				}
+				else
+				{
+					return null;
+				}
+			}
+			set
+			{
+				this.OnPropertyChanging("statuscode");
+				if ((value == null))
+				{
+					this.SetAttributeValue("statuscode", null);
+				}
+				else
+				{
+					this.SetAttributeValue("statuscode", new Microsoft.Xrm.Sdk.OptionSetValue(((int)(value))));
+				}
+				this.OnPropertyChanged("statuscode");
+			}
+		}
+		
+		/// <summary>
+		/// For internal use only.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("timezoneruleversionnumber")]
+		public System.Nullable<int> TimeZoneRuleVersionNumber
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<int>>("timezoneruleversionnumber");
+			}
+			set
+			{
+				this.OnPropertyChanging("TimeZoneRuleVersionNumber");
+				this.SetAttributeValue("timezoneruleversionnumber", value);
+				this.OnPropertyChanged("TimeZoneRuleVersionNumber");
+			}
+		}
+		
+		/// <summary>
+		/// Time zone code that was in use when the record was created.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("utcconversiontimezonecode")]
+		public System.Nullable<int> UTCConversionTimeZoneCode
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<int>>("utcconversiontimezonecode");
+			}
+			set
+			{
+				this.OnPropertyChanging("UTCConversionTimeZoneCode");
+				this.SetAttributeValue("utcconversiontimezonecode", value);
+				this.OnPropertyChanged("UTCConversionTimeZoneCode");
+			}
+		}
+		
+		/// <summary>
+		/// Version Number
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("versionnumber")]
+		public System.Nullable<long> VersionNumber
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<long>>("versionnumber");
+			}
+		}
+		
+		/// <summary>
+		/// 1:N bru_bru_jobrole_bru_interview_JobRole
+		/// </summary>
+		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("bru_bru_jobrole_bru_interview_JobRole")]
+		public System.Collections.Generic.IEnumerable<AKL.Dynamics365.Entities.bru_interview> bru_bru_jobrole_bru_interview_JobRole
+		{
+			get
+			{
+				return this.GetRelatedEntities<AKL.Dynamics365.Entities.bru_interview>("bru_bru_jobrole_bru_interview_JobRole", null);
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_bru_jobrole_bru_interview_JobRole");
+				this.SetRelatedEntities<AKL.Dynamics365.Entities.bru_interview>("bru_bru_jobrole_bru_interview_JobRole", null, value);
+				this.OnPropertyChanged("bru_bru_jobrole_bru_interview_JobRole");
+			}
+		}
+		
+		/// <summary>
+		/// 1:N bru_bru_jobrole_bru_interview_process_JobRole
+		/// </summary>
+		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("bru_bru_jobrole_bru_interview_process_JobRole")]
+		public System.Collections.Generic.IEnumerable<AKL.Dynamics365.Entities.bru_interview_process> bru_bru_jobrole_bru_interview_process_JobRole
+		{
+			get
+			{
+				return this.GetRelatedEntities<AKL.Dynamics365.Entities.bru_interview_process>("bru_bru_jobrole_bru_interview_process_JobRole", null);
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_bru_jobrole_bru_interview_process_JobRole");
+				this.SetRelatedEntities<AKL.Dynamics365.Entities.bru_interview_process>("bru_bru_jobrole_bru_interview_process_JobRole", null, value);
+				this.OnPropertyChanged("bru_bru_jobrole_bru_interview_process_JobRole");
+			}
+		}
+		
+		/// <summary>
+		/// 1:N bru_bru_jobrole_bru_jobapplication_JobRole
+		/// </summary>
+		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("bru_bru_jobrole_bru_jobapplication_JobRole")]
+		public System.Collections.Generic.IEnumerable<AKL.Dynamics365.Entities.bru_jobapplication> bru_bru_jobrole_bru_jobapplication_JobRole
+		{
+			get
+			{
+				return this.GetRelatedEntities<AKL.Dynamics365.Entities.bru_jobapplication>("bru_bru_jobrole_bru_jobapplication_JobRole", null);
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_bru_jobrole_bru_jobapplication_JobRole");
+				this.SetRelatedEntities<AKL.Dynamics365.Entities.bru_jobapplication>("bru_bru_jobrole_bru_jobapplication_JobRole", null, value);
+				this.OnPropertyChanged("bru_bru_jobrole_bru_jobapplication_JobRole");
+			}
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum bru_personalinterviewState
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Active = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Inactive = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum bru_personalinterview_statuscode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Active = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Inactive = 2,
+	}
+	
+	/// <summary>
+	/// 
+	/// </summary>
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[Microsoft.Xrm.Sdk.Client.EntityLogicalNameAttribute("bru_personalinterview")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public partial class bru_personalinterview : Microsoft.Xrm.Sdk.Entity, System.ComponentModel.INotifyPropertyChanging, System.ComponentModel.INotifyPropertyChanged
+	{
+		
+		/// <summary>
+		/// Default Constructor.
+		/// </summary>
+		public bru_personalinterview() : 
+				base(EntityLogicalName)
+		{
+		}
+		
+		public const string EntityLogicalName = "bru_personalinterview";
+		
+		public const int EntityTypeCode = 10544;
+		
+		public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+		
+		public event System.ComponentModel.PropertyChangingEventHandler PropertyChanging;
+		
+		private void OnPropertyChanged(string propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+			}
+		}
+		
+		private void OnPropertyChanging(string propertyName)
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, new System.ComponentModel.PropertyChangingEventArgs(propertyName));
+			}
+		}
+		
+		/// <summary>
+		/// 
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_aptitude")]
+		public System.Nullable<int> bru_aptitude
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<int>>("bru_aptitude");
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_aptitude");
+				this.SetAttributeValue("bru_aptitude", value);
+				this.OnPropertyChanged("bru_aptitude");
+			}
+		}
+		
+		/// <summary>
+		/// 
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_communicationskills")]
+		public System.Nullable<int> bru_CommunicationSkills
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<int>>("bru_communicationskills");
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_CommunicationSkills");
+				this.SetAttributeValue("bru_communicationskills", value);
+				this.OnPropertyChanged("bru_CommunicationSkills");
+			}
+		}
+		
+		/// <summary>
+		/// The name of the custom entity.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_name")]
+		public string bru_name
+		{
+			get
+			{
+				return this.GetAttributeValue<string>("bru_name");
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_name");
+				this.SetAttributeValue("bru_name", value);
+				this.OnPropertyChanged("bru_name");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for entity instances
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_personalinterviewid")]
+		public System.Nullable<System.Guid> bru_personalinterviewId
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.Guid>>("bru_personalinterviewid");
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_personalinterviewId");
+				this.SetAttributeValue("bru_personalinterviewid", value);
+				if (value.HasValue)
+				{
+					base.Id = value.Value;
+				}
+				else
+				{
+					base.Id = System.Guid.Empty;
+				}
+				this.OnPropertyChanged("bru_personalinterviewId");
+			}
+		}
+		
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_personalinterviewid")]
+		public override System.Guid Id
+		{
+			get
+			{
+				return base.Id;
+			}
+			set
+			{
+				this.bru_personalinterviewId = value;
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for Interview Process associated with Personal Interview.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_personalinterviewstaticid")]
+		public Microsoft.Xrm.Sdk.EntityReference bru_PersonalInterviewStaticId
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("bru_personalinterviewstaticid");
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_PersonalInterviewStaticId");
+				this.SetAttributeValue("bru_personalinterviewstaticid", value);
+				this.OnPropertyChanged("bru_PersonalInterviewStaticId");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the user who created the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("createdby")]
+		public Microsoft.Xrm.Sdk.EntityReference CreatedBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("createdby");
+			}
+		}
+		
+		/// <summary>
+		/// Date and time when the record was created.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("createdon")]
+		public System.Nullable<System.DateTime> CreatedOn
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.DateTime>>("createdon");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the delegate user who created the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("createdonbehalfby")]
+		public Microsoft.Xrm.Sdk.EntityReference CreatedOnBehalfBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("createdonbehalfby");
+			}
+		}
+		
+		/// <summary>
+		/// Sequence number of the import that created this record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("importsequencenumber")]
+		public System.Nullable<int> ImportSequenceNumber
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<int>>("importsequencenumber");
+			}
+			set
+			{
+				this.OnPropertyChanging("ImportSequenceNumber");
+				this.SetAttributeValue("importsequencenumber", value);
+				this.OnPropertyChanged("ImportSequenceNumber");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the user who modified the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("modifiedby")]
+		public Microsoft.Xrm.Sdk.EntityReference ModifiedBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("modifiedby");
+			}
+		}
+		
+		/// <summary>
+		/// Date and time when the record was modified.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("modifiedon")]
+		public System.Nullable<System.DateTime> ModifiedOn
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.DateTime>>("modifiedon");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the delegate user who modified the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("modifiedonbehalfby")]
+		public Microsoft.Xrm.Sdk.EntityReference ModifiedOnBehalfBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("modifiedonbehalfby");
+			}
+		}
+		
+		/// <summary>
+		/// Date and time that the record was migrated.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("overriddencreatedon")]
+		public System.Nullable<System.DateTime> OverriddenCreatedOn
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.DateTime>>("overriddencreatedon");
+			}
+			set
+			{
+				this.OnPropertyChanging("OverriddenCreatedOn");
+				this.SetAttributeValue("overriddencreatedon", value);
+				this.OnPropertyChanged("OverriddenCreatedOn");
+			}
+		}
+		
+		/// <summary>
+		/// Owner Id
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("ownerid")]
+		public Microsoft.Xrm.Sdk.EntityReference OwnerId
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("ownerid");
+			}
+			set
+			{
+				this.OnPropertyChanging("OwnerId");
+				this.SetAttributeValue("ownerid", value);
+				this.OnPropertyChanged("OwnerId");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for the business unit that owns the record
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owningbusinessunit")]
+		public Microsoft.Xrm.Sdk.EntityReference OwningBusinessUnit
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("owningbusinessunit");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for the team that owns the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owningteam")]
+		public Microsoft.Xrm.Sdk.EntityReference OwningTeam
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("owningteam");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for the user that owns the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owninguser")]
+		public Microsoft.Xrm.Sdk.EntityReference OwningUser
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("owninguser");
+			}
+		}
+		
+		/// <summary>
+		/// Contains the id of the process associated with the entity.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("processid")]
+		public System.Nullable<System.Guid> processid
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.Guid>>("processid");
+			}
+			set
+			{
+				this.OnPropertyChanging("processid");
+				this.SetAttributeValue("processid", value);
+				this.OnPropertyChanged("processid");
+			}
+		}
+		
+		/// <summary>
+		/// Contains the id of the stage where the entity is located.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("stageid")]
+		public System.Nullable<System.Guid> stageid
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.Guid>>("stageid");
+			}
+			set
+			{
+				this.OnPropertyChanging("stageid");
+				this.SetAttributeValue("stageid", value);
+				this.OnPropertyChanged("stageid");
+			}
+		}
+		
+		/// <summary>
+		/// Status of the Personal Interview
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statecode")]
+		public System.Nullable<AKL.Dynamics365.Entities.bru_personalinterviewState> statecode
+		{
+			get
+			{
+				Microsoft.Xrm.Sdk.OptionSetValue optionSet = this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("statecode");
+				if ((optionSet != null))
+				{
+					return ((AKL.Dynamics365.Entities.bru_personalinterviewState)(System.Enum.ToObject(typeof(AKL.Dynamics365.Entities.bru_personalinterviewState), optionSet.Value)));
+				}
+				else
+				{
+					return null;
+				}
+			}
+			set
+			{
+				this.OnPropertyChanging("statecode");
+				if ((value == null))
+				{
+					this.SetAttributeValue("statecode", null);
+				}
+				else
+				{
+					this.SetAttributeValue("statecode", new Microsoft.Xrm.Sdk.OptionSetValue(((int)(value))));
+				}
+				this.OnPropertyChanged("statecode");
+			}
+		}
+		
+		/// <summary>
+		/// Reason for the status of the Personal Interview
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statuscode")]
+		public System.Nullable<AKL.Dynamics365.Entities.bru_personalinterview_statuscode> statuscode
+		{
+			get
+			{
+				Microsoft.Xrm.Sdk.OptionSetValue optionSet = this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("statuscode");
+				if ((optionSet != null))
+				{
+					return ((AKL.Dynamics365.Entities.bru_personalinterview_statuscode)(System.Enum.ToObject(typeof(AKL.Dynamics365.Entities.bru_personalinterview_statuscode), optionSet.Value)));
+				}
+				else
+				{
+					return null;
+				}
+			}
+			set
+			{
+				this.OnPropertyChanging("statuscode");
+				if ((value == null))
+				{
+					this.SetAttributeValue("statuscode", null);
+				}
+				else
+				{
+					this.SetAttributeValue("statuscode", new Microsoft.Xrm.Sdk.OptionSetValue(((int)(value))));
+				}
+				this.OnPropertyChanged("statuscode");
+			}
+		}
+		
+		/// <summary>
+		/// For internal use only.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("timezoneruleversionnumber")]
+		public System.Nullable<int> TimeZoneRuleVersionNumber
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<int>>("timezoneruleversionnumber");
+			}
+			set
+			{
+				this.OnPropertyChanging("TimeZoneRuleVersionNumber");
+				this.SetAttributeValue("timezoneruleversionnumber", value);
+				this.OnPropertyChanged("TimeZoneRuleVersionNumber");
+			}
+		}
+		
+		/// <summary>
+		/// A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("traversedpath")]
+		public string traversedpath
+		{
+			get
+			{
+				return this.GetAttributeValue<string>("traversedpath");
+			}
+			set
+			{
+				this.OnPropertyChanging("traversedpath");
+				this.SetAttributeValue("traversedpath", value);
+				this.OnPropertyChanged("traversedpath");
+			}
+		}
+		
+		/// <summary>
+		/// Time zone code that was in use when the record was created.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("utcconversiontimezonecode")]
+		public System.Nullable<int> UTCConversionTimeZoneCode
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<int>>("utcconversiontimezonecode");
+			}
+			set
+			{
+				this.OnPropertyChanging("UTCConversionTimeZoneCode");
+				this.SetAttributeValue("utcconversiontimezonecode", value);
+				this.OnPropertyChanged("UTCConversionTimeZoneCode");
+			}
+		}
+		
+		/// <summary>
+		/// Version Number
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("versionnumber")]
+		public System.Nullable<long> VersionNumber
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<long>>("versionnumber");
+			}
+		}
+		
+		/// <summary>
+		/// N:1 bru_bru_interview_process_bru_personalintervi
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_personalinterviewstaticid")]
+		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("bru_bru_interview_process_bru_personalintervi")]
+		public AKL.Dynamics365.Entities.bru_interview_process bru_bru_interview_process_bru_personalintervi
+		{
+			get
+			{
+				return this.GetRelatedEntity<AKL.Dynamics365.Entities.bru_interview_process>("bru_bru_interview_process_bru_personalintervi", null);
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_bru_interview_process_bru_personalintervi");
+				this.SetRelatedEntity<AKL.Dynamics365.Entities.bru_interview_process>("bru_bru_interview_process_bru_personalintervi", null, value);
+				this.OnPropertyChanged("bru_bru_interview_process_bru_personalintervi");
+			}
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum bru_technicalinterviewState
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Active = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Inactive = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public enum bru_technicalinterview_statuscode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Active = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Inactive = 2,
+	}
+	
+	/// <summary>
+	/// 
+	/// </summary>
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[Microsoft.Xrm.Sdk.Client.EntityLogicalNameAttribute("bru_technicalinterview")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
+	public partial class bru_technicalinterview : Microsoft.Xrm.Sdk.Entity, System.ComponentModel.INotifyPropertyChanging, System.ComponentModel.INotifyPropertyChanged
+	{
+		
+		/// <summary>
+		/// Default Constructor.
+		/// </summary>
+		public bru_technicalinterview() : 
+				base(EntityLogicalName)
+		{
+		}
+		
+		public const string EntityLogicalName = "bru_technicalinterview";
+		
+		public const int EntityTypeCode = 10553;
+		
+		public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+		
+		public event System.ComponentModel.PropertyChangingEventHandler PropertyChanging;
+		
+		private void OnPropertyChanged(string propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+			}
+		}
+		
+		private void OnPropertyChanging(string propertyName)
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, new System.ComponentModel.PropertyChangingEventArgs(propertyName));
+			}
+		}
+		
+		/// <summary>
+		/// 
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_d365_dynamics_customization_experience")]
+		public System.Nullable<int> bru_d365_Dynamics_Customization_Experience
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<int>>("bru_d365_dynamics_customization_experience");
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_d365_Dynamics_Customization_Experience");
+				this.SetAttributeValue("bru_d365_dynamics_customization_experience", value);
+				this.OnPropertyChanged("bru_d365_Dynamics_Customization_Experience");
+			}
+		}
+		
+		/// <summary>
+		/// 
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_d365_general_javascript_experience")]
+		public System.Nullable<int> bru_d365_General_JavaScript_Experience
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<int>>("bru_d365_general_javascript_experience");
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_d365_General_JavaScript_Experience");
+				this.SetAttributeValue("bru_d365_general_javascript_experience", value);
+				this.OnPropertyChanged("bru_d365_General_JavaScript_Experience");
+			}
+		}
+		
+		/// <summary>
+		/// 
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_d365_plugin_development_experience")]
+		public System.Nullable<int> bru_d365_Plugin_Development_Experience
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<int>>("bru_d365_plugin_development_experience");
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_d365_Plugin_Development_Experience");
+				this.SetAttributeValue("bru_d365_plugin_development_experience", value);
+				this.OnPropertyChanged("bru_d365_Plugin_Development_Experience");
+			}
+		}
+		
+		/// <summary>
+		/// The name of the custom entity.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_name")]
+		public string bru_name
+		{
+			get
+			{
+				return this.GetAttributeValue<string>("bru_name");
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_name");
+				this.SetAttributeValue("bru_name", value);
+				this.OnPropertyChanged("bru_name");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for entity instances
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_technicalinterviewid")]
+		public System.Nullable<System.Guid> bru_technicalinterviewId
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.Guid>>("bru_technicalinterviewid");
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_technicalinterviewId");
+				this.SetAttributeValue("bru_technicalinterviewid", value);
+				if (value.HasValue)
+				{
+					base.Id = value.Value;
+				}
+				else
+				{
+					base.Id = System.Guid.Empty;
+				}
+				this.OnPropertyChanged("bru_technicalinterviewId");
+			}
+		}
+		
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_technicalinterviewid")]
+		public override System.Guid Id
+		{
+			get
+			{
+				return base.Id;
+			}
+			set
+			{
+				this.bru_technicalinterviewId = value;
+			}
+		}
+		
+		/// <summary>
+		/// 
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("bru_technicalinterviewtype")]
+		public System.Nullable<AKL.Dynamics365.Entities.bru_technicalinterviewtype> bru_TechnicalInterviewType
+		{
+			get
+			{
+				Microsoft.Xrm.Sdk.OptionSetValue optionSet = this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("bru_technicalinterviewtype");
+				if ((optionSet != null))
+				{
+					return ((AKL.Dynamics365.Entities.bru_technicalinterviewtype)(System.Enum.ToObject(typeof(AKL.Dynamics365.Entities.bru_technicalinterviewtype), optionSet.Value)));
+				}
+				else
+				{
+					return null;
+				}
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_TechnicalInterviewType");
+				if ((value == null))
+				{
+					this.SetAttributeValue("bru_technicalinterviewtype", null);
+				}
+				else
+				{
+					this.SetAttributeValue("bru_technicalinterviewtype", new Microsoft.Xrm.Sdk.OptionSetValue(((int)(value))));
+				}
+				this.OnPropertyChanged("bru_TechnicalInterviewType");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the user who created the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("createdby")]
+		public Microsoft.Xrm.Sdk.EntityReference CreatedBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("createdby");
+			}
+		}
+		
+		/// <summary>
+		/// Date and time when the record was created.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("createdon")]
+		public System.Nullable<System.DateTime> CreatedOn
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.DateTime>>("createdon");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the delegate user who created the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("createdonbehalfby")]
+		public Microsoft.Xrm.Sdk.EntityReference CreatedOnBehalfBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("createdonbehalfby");
+			}
+		}
+		
+		/// <summary>
+		/// Sequence number of the import that created this record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("importsequencenumber")]
+		public System.Nullable<int> ImportSequenceNumber
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<int>>("importsequencenumber");
+			}
+			set
+			{
+				this.OnPropertyChanging("ImportSequenceNumber");
+				this.SetAttributeValue("importsequencenumber", value);
+				this.OnPropertyChanged("ImportSequenceNumber");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the user who modified the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("modifiedby")]
+		public Microsoft.Xrm.Sdk.EntityReference ModifiedBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("modifiedby");
+			}
+		}
+		
+		/// <summary>
+		/// Date and time when the record was modified.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("modifiedon")]
+		public System.Nullable<System.DateTime> ModifiedOn
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.DateTime>>("modifiedon");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the delegate user who modified the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("modifiedonbehalfby")]
+		public Microsoft.Xrm.Sdk.EntityReference ModifiedOnBehalfBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("modifiedonbehalfby");
+			}
+		}
+		
+		/// <summary>
+		/// Date and time that the record was migrated.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("overriddencreatedon")]
+		public System.Nullable<System.DateTime> OverriddenCreatedOn
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.DateTime>>("overriddencreatedon");
+			}
+			set
+			{
+				this.OnPropertyChanging("OverriddenCreatedOn");
+				this.SetAttributeValue("overriddencreatedon", value);
+				this.OnPropertyChanged("OverriddenCreatedOn");
+			}
+		}
+		
+		/// <summary>
+		/// Owner Id
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("ownerid")]
+		public Microsoft.Xrm.Sdk.EntityReference OwnerId
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("ownerid");
+			}
+			set
+			{
+				this.OnPropertyChanging("OwnerId");
+				this.SetAttributeValue("ownerid", value);
+				this.OnPropertyChanged("OwnerId");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for the business unit that owns the record
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owningbusinessunit")]
+		public Microsoft.Xrm.Sdk.EntityReference OwningBusinessUnit
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("owningbusinessunit");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for the team that owns the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owningteam")]
+		public Microsoft.Xrm.Sdk.EntityReference OwningTeam
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("owningteam");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for the user that owns the record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owninguser")]
+		public Microsoft.Xrm.Sdk.EntityReference OwningUser
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("owninguser");
+			}
+		}
+		
+		/// <summary>
+		/// Status of the Technical Interview
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statecode")]
+		public System.Nullable<AKL.Dynamics365.Entities.bru_technicalinterviewState> statecode
+		{
+			get
+			{
+				Microsoft.Xrm.Sdk.OptionSetValue optionSet = this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("statecode");
+				if ((optionSet != null))
+				{
+					return ((AKL.Dynamics365.Entities.bru_technicalinterviewState)(System.Enum.ToObject(typeof(AKL.Dynamics365.Entities.bru_technicalinterviewState), optionSet.Value)));
+				}
+				else
+				{
+					return null;
+				}
+			}
+			set
+			{
+				this.OnPropertyChanging("statecode");
+				if ((value == null))
+				{
+					this.SetAttributeValue("statecode", null);
+				}
+				else
+				{
+					this.SetAttributeValue("statecode", new Microsoft.Xrm.Sdk.OptionSetValue(((int)(value))));
+				}
+				this.OnPropertyChanged("statecode");
+			}
+		}
+		
+		/// <summary>
+		/// Reason for the status of the Technical Interview
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statuscode")]
+		public System.Nullable<AKL.Dynamics365.Entities.bru_technicalinterview_statuscode> statuscode
+		{
+			get
+			{
+				Microsoft.Xrm.Sdk.OptionSetValue optionSet = this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("statuscode");
+				if ((optionSet != null))
+				{
+					return ((AKL.Dynamics365.Entities.bru_technicalinterview_statuscode)(System.Enum.ToObject(typeof(AKL.Dynamics365.Entities.bru_technicalinterview_statuscode), optionSet.Value)));
+				}
+				else
+				{
+					return null;
+				}
+			}
+			set
+			{
+				this.OnPropertyChanging("statuscode");
+				if ((value == null))
+				{
+					this.SetAttributeValue("statuscode", null);
+				}
+				else
+				{
+					this.SetAttributeValue("statuscode", new Microsoft.Xrm.Sdk.OptionSetValue(((int)(value))));
+				}
+				this.OnPropertyChanged("statuscode");
+			}
+		}
+		
+		/// <summary>
+		/// For internal use only.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("timezoneruleversionnumber")]
+		public System.Nullable<int> TimeZoneRuleVersionNumber
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<int>>("timezoneruleversionnumber");
+			}
+			set
+			{
+				this.OnPropertyChanging("TimeZoneRuleVersionNumber");
+				this.SetAttributeValue("timezoneruleversionnumber", value);
+				this.OnPropertyChanged("TimeZoneRuleVersionNumber");
+			}
+		}
+		
+		/// <summary>
+		/// Time zone code that was in use when the record was created.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("utcconversiontimezonecode")]
+		public System.Nullable<int> UTCConversionTimeZoneCode
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<int>>("utcconversiontimezonecode");
+			}
+			set
+			{
+				this.OnPropertyChanging("UTCConversionTimeZoneCode");
+				this.SetAttributeValue("utcconversiontimezonecode", value);
+				this.OnPropertyChanged("UTCConversionTimeZoneCode");
+			}
+		}
+		
+		/// <summary>
+		/// Version Number
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("versionnumber")]
+		public System.Nullable<long> VersionNumber
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<long>>("versionnumber");
+			}
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum contact_accountrolecode
 	{
 		
@@ -4316,7 +13492,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum contact_address1_addresstypecode
 	{
 		
@@ -4334,7 +13510,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum contact_address1_freighttermscode
 	{
 		
@@ -4346,7 +13522,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum contact_address1_shippingmethodcode
 	{
 		
@@ -4373,7 +13549,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum contact_address2_addresstypecode
 	{
 		
@@ -4382,7 +13558,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum contact_address2_freighttermscode
 	{
 		
@@ -4391,7 +13567,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum contact_address2_shippingmethodcode
 	{
 		
@@ -4400,7 +13576,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum contact_address3_addresstypecode
 	{
 		
@@ -4409,7 +13585,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum contact_address3_freighttermscode
 	{
 		
@@ -4418,7 +13594,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum contact_address3_shippingmethodcode
 	{
 		
@@ -4427,7 +13603,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum bru_contact_bru_contacttype
 	{
 		
@@ -4442,7 +13618,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum contact_customersizecode
 	{
 		
@@ -4451,7 +13627,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum contact_customertypecode
 	{
 		
@@ -4460,7 +13636,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum contact_educationcode
 	{
 		
@@ -4469,7 +13645,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum contact_familystatuscode
 	{
 		
@@ -4487,7 +13663,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum contact_gendercode
 	{
 		
@@ -4499,7 +13675,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum contact_haschildrencode
 	{
 		
@@ -4508,7 +13684,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum contact_leadsourcecode
 	{
 		
@@ -4517,7 +13693,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum contact_msdyn_orgchangestatus
 	{
 		
@@ -4532,7 +13708,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum contact_paymenttermscode
 	{
 		
@@ -4550,7 +13726,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum contact_preferredappointmentdaycode
 	{
 		
@@ -4577,7 +13753,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum contact_preferredappointmenttimecode
 	{
 		
@@ -4592,7 +13768,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum contact_preferredcontactmethodcode
 	{
 		
@@ -4613,7 +13789,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum contact_shippingmethodcode
 	{
 		
@@ -4622,7 +13798,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum ContactState
 	{
 		
@@ -4634,7 +13810,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum contact_statuscode
 	{
 		
@@ -4646,7 +13822,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum contact_territorycode
 	{
 		
@@ -4659,7 +13835,7 @@ namespace AKL.Dynamics365.Entities
 	/// </summary>
 	[System.Runtime.Serialization.DataContractAttribute()]
 	[Microsoft.Xrm.Sdk.Client.EntityLogicalNameAttribute("contact")]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public partial class Contact : Microsoft.Xrm.Sdk.Entity, System.ComponentModel.INotifyPropertyChanging, System.ComponentModel.INotifyPropertyChanged
 	{
 		
@@ -8542,6 +17718,42 @@ namespace AKL.Dynamics365.Entities
 		}
 		
 		/// <summary>
+		/// 1:N bru_contact_bru_interview_Candidate
+		/// </summary>
+		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("bru_contact_bru_interview_Candidate")]
+		public System.Collections.Generic.IEnumerable<AKL.Dynamics365.Entities.bru_interview> bru_contact_bru_interview_Candidate
+		{
+			get
+			{
+				return this.GetRelatedEntities<AKL.Dynamics365.Entities.bru_interview>("bru_contact_bru_interview_Candidate", null);
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_contact_bru_interview_Candidate");
+				this.SetRelatedEntities<AKL.Dynamics365.Entities.bru_interview>("bru_contact_bru_interview_Candidate", null, value);
+				this.OnPropertyChanged("bru_contact_bru_interview_Candidate");
+			}
+		}
+		
+		/// <summary>
+		/// 1:N bru_contact_bru_interview_process_candidate
+		/// </summary>
+		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("bru_contact_bru_interview_process_candidate")]
+		public System.Collections.Generic.IEnumerable<AKL.Dynamics365.Entities.bru_interview_process> bru_contact_bru_interview_process_candidate
+		{
+			get
+			{
+				return this.GetRelatedEntities<AKL.Dynamics365.Entities.bru_interview_process>("bru_contact_bru_interview_process_candidate", null);
+			}
+			set
+			{
+				this.OnPropertyChanging("bru_contact_bru_interview_process_candidate");
+				this.SetRelatedEntities<AKL.Dynamics365.Entities.bru_interview_process>("bru_contact_bru_interview_process_candidate", null, value);
+				this.OnPropertyChanged("bru_contact_bru_interview_process_candidate");
+			}
+		}
+		
+		/// <summary>
 		/// 1:N bru_contact_bru_jobapplication_Applicant
 		/// </summary>
 		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("bru_contact_bru_jobapplication_Applicant")]
@@ -8684,7 +17896,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum quote_freighttermscode
 	{
 		
@@ -8696,7 +17908,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum msdyn_quote_msdyn_ordertype
 	{
 		
@@ -8711,7 +17923,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum quote_paymenttermscode
 	{
 		
@@ -8729,7 +17941,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum quote_shippingmethodcode
 	{
 		
@@ -8756,7 +17968,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum quote_shipto_freighttermscode
 	{
 		
@@ -8765,7 +17977,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum QuoteState
 	{
 		
@@ -8783,7 +17995,7 @@ namespace AKL.Dynamics365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public enum quote_statuscode
 	{
 		
@@ -8814,7 +18026,7 @@ namespace AKL.Dynamics365.Entities
 	/// </summary>
 	[System.Runtime.Serialization.DataContractAttribute()]
 	[Microsoft.Xrm.Sdk.Client.EntityLogicalNameAttribute("quote")]
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public partial class Quote : Microsoft.Xrm.Sdk.Entity, System.ComponentModel.INotifyPropertyChanging, System.ComponentModel.INotifyPropertyChanged
 	{
 		
@@ -9529,11 +18741,19 @@ namespace AKL.Dynamics365.Entities
 		/// Shows how the quote estimation of sales value and schedule compare to customer expectations on those parameters. Possible values are 1: Within Customer expectations, 2: Not Within Customer expectations, and 0: Customer expectations Not Available.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msdyn_competitive")]
-		public Microsoft.Xrm.Sdk.OptionSetValue msdyn_Competitive
+		public System.Nullable<AKL.Dynamics365.Entities.msdyn_competitive> msdyn_Competitive
 		{
 			get
 			{
-				return this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("msdyn_competitive");
+				Microsoft.Xrm.Sdk.OptionSetValue optionSet = this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("msdyn_competitive");
+				if ((optionSet != null))
+				{
+					return ((AKL.Dynamics365.Entities.msdyn_competitive)(System.Enum.ToObject(typeof(AKL.Dynamics365.Entities.msdyn_competitive), optionSet.Value)));
+				}
+				else
+				{
+					return null;
+				}
 			}
 		}
 		
@@ -9607,11 +18827,19 @@ namespace AKL.Dynamics365.Entities
 		/// Shows how the estimated sales value on the quote compares to customer budgets. Possible values are 1: Within Customer Budget, 2: Exceeds Customer Budget, 0: Budget Estimate Not Available
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msdyn_estimatedbudget")]
-		public Microsoft.Xrm.Sdk.OptionSetValue msdyn_EstimatedBudget
+		public System.Nullable<AKL.Dynamics365.Entities.msdyn_budgetestimate> msdyn_EstimatedBudget
 		{
 			get
 			{
-				return this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("msdyn_estimatedbudget");
+				Microsoft.Xrm.Sdk.OptionSetValue optionSet = this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("msdyn_estimatedbudget");
+				if ((optionSet != null))
+				{
+					return ((AKL.Dynamics365.Entities.msdyn_budgetestimate)(System.Enum.ToObject(typeof(AKL.Dynamics365.Entities.msdyn_budgetestimate), optionSet.Value)));
+				}
+				else
+				{
+					return null;
+				}
 			}
 		}
 		
@@ -9697,11 +18925,19 @@ namespace AKL.Dynamics365.Entities
 		/// Shows how the estimated schedule on the quote compares to customer expectations. Possible values are 1: Estimated To Finish Early, 2: Estimated To Finish Late, 3: Estimated To Finish On Schedule, and 0: Schedule Not Available.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msdyn_estimatedschedule")]
-		public Microsoft.Xrm.Sdk.OptionSetValue msdyn_EstimatedSchedule
+		public System.Nullable<AKL.Dynamics365.Entities.msdyn_schedule> msdyn_EstimatedSchedule
 		{
 			get
 			{
-				return this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("msdyn_estimatedschedule");
+				Microsoft.Xrm.Sdk.OptionSetValue optionSet = this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("msdyn_estimatedschedule");
+				if ((optionSet != null))
+				{
+					return ((AKL.Dynamics365.Entities.msdyn_schedule)(System.Enum.ToObject(typeof(AKL.Dynamics365.Entities.msdyn_schedule), optionSet.Value)));
+				}
+				else
+				{
+					return null;
+				}
 			}
 		}
 		
@@ -9709,16 +18945,31 @@ namespace AKL.Dynamics365.Entities
 		/// Shows how the quote estimation compares to project estimation. Possible values are 0: Feasibility Not Available, 1: Feasible, and 2: Not Feasible.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msdyn_feasible")]
-		public Microsoft.Xrm.Sdk.OptionSetValue msdyn_feasible
+		public System.Nullable<AKL.Dynamics365.Entities.msdyn_feasibility> msdyn_feasible
 		{
 			get
 			{
-				return this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("msdyn_feasible");
+				Microsoft.Xrm.Sdk.OptionSetValue optionSet = this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("msdyn_feasible");
+				if ((optionSet != null))
+				{
+					return ((AKL.Dynamics365.Entities.msdyn_feasibility)(System.Enum.ToObject(typeof(AKL.Dynamics365.Entities.msdyn_feasibility), optionSet.Value)));
+				}
+				else
+				{
+					return null;
+				}
 			}
 			set
 			{
 				this.OnPropertyChanging("msdyn_feasible");
-				this.SetAttributeValue("msdyn_feasible", value);
+				if ((value == null))
+				{
+					this.SetAttributeValue("msdyn_feasible", null);
+				}
+				else
+				{
+					this.SetAttributeValue("msdyn_feasible", new Microsoft.Xrm.Sdk.OptionSetValue(((int)(value))));
+				}
 				this.OnPropertyChanged("msdyn_feasible");
 			}
 		}
@@ -9802,11 +19053,19 @@ namespace AKL.Dynamics365.Entities
 		/// Shows the estimated profitability of the quote. Possible values are Profitable, Not Profitable, and Profitability not available.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msdyn_profitability")]
-		public Microsoft.Xrm.Sdk.OptionSetValue msdyn_Profitability
+		public System.Nullable<AKL.Dynamics365.Entities.msdyn_profitability> msdyn_Profitability
 		{
 			get
 			{
-				return this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("msdyn_profitability");
+				Microsoft.Xrm.Sdk.OptionSetValue optionSet = this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("msdyn_profitability");
+				if ((optionSet != null))
+				{
+					return ((AKL.Dynamics365.Entities.msdyn_profitability)(System.Enum.ToObject(typeof(AKL.Dynamics365.Entities.msdyn_profitability), optionSet.Value)));
+				}
+				else
+				{
+					return null;
+				}
 			}
 		}
 		
@@ -10141,16 +19400,31 @@ namespace AKL.Dynamics365.Entities
 		/// Pricing error for the quote.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("pricingerrorcode")]
-		public Microsoft.Xrm.Sdk.OptionSetValue PricingErrorCode
+		public System.Nullable<AKL.Dynamics365.Entities.qooi_pricingerrorcode> PricingErrorCode
 		{
 			get
 			{
-				return this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("pricingerrorcode");
+				Microsoft.Xrm.Sdk.OptionSetValue optionSet = this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("pricingerrorcode");
+				if ((optionSet != null))
+				{
+					return ((AKL.Dynamics365.Entities.qooi_pricingerrorcode)(System.Enum.ToObject(typeof(AKL.Dynamics365.Entities.qooi_pricingerrorcode), optionSet.Value)));
+				}
+				else
+				{
+					return null;
+				}
 			}
 			set
 			{
 				this.OnPropertyChanging("PricingErrorCode");
-				this.SetAttributeValue("pricingerrorcode", value);
+				if ((value == null))
+				{
+					this.SetAttributeValue("pricingerrorcode", null);
+				}
+				else
+				{
+					this.SetAttributeValue("pricingerrorcode", new Microsoft.Xrm.Sdk.OptionSetValue(((int)(value))));
+				}
 				this.OnPropertyChanged("PricingErrorCode");
 			}
 		}
@@ -10558,16 +19832,31 @@ namespace AKL.Dynamics365.Entities
 		/// Skip Price Calculation (For Internal use)
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("skippricecalculation")]
-		public Microsoft.Xrm.Sdk.OptionSetValue SkipPriceCalculation
+		public System.Nullable<AKL.Dynamics365.Entities.qooi_skippricecalculation> SkipPriceCalculation
 		{
 			get
 			{
-				return this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("skippricecalculation");
+				Microsoft.Xrm.Sdk.OptionSetValue optionSet = this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("skippricecalculation");
+				if ((optionSet != null))
+				{
+					return ((AKL.Dynamics365.Entities.qooi_skippricecalculation)(System.Enum.ToObject(typeof(AKL.Dynamics365.Entities.qooi_skippricecalculation), optionSet.Value)));
+				}
+				else
+				{
+					return null;
+				}
 			}
 			set
 			{
 				this.OnPropertyChanging("SkipPriceCalculation");
-				this.SetAttributeValue("skippricecalculation", value);
+				if ((value == null))
+				{
+					this.SetAttributeValue("skippricecalculation", null);
+				}
+				else
+				{
+					this.SetAttributeValue("skippricecalculation", new Microsoft.Xrm.Sdk.OptionSetValue(((int)(value))));
+				}
 				this.OnPropertyChanged("SkipPriceCalculation");
 			}
 		}
@@ -11047,7 +20336,7 @@ namespace AKL.Dynamics365.Entities
 	/// <summary>
 	/// Represents a source of entities bound to a CRM service. It tracks and manages changes made to the retrieved entities.
 	/// </summary>
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.28")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.1.0.52")]
 	public partial class XrmSvc : Microsoft.Xrm.Sdk.Client.OrganizationServiceContext
 	{
 		
@@ -11071,6 +20360,39 @@ namespace AKL.Dynamics365.Entities
 		}
 		
 		/// <summary>
+		/// Gets a binding to the set of all <see cref="AKL.Dynamics365.Entities.bru_interview"/> entities.
+		/// </summary>
+		public System.Linq.IQueryable<AKL.Dynamics365.Entities.bru_interview> bru_interviewSet
+		{
+			get
+			{
+				return this.CreateQuery<AKL.Dynamics365.Entities.bru_interview>();
+			}
+		}
+		
+		/// <summary>
+		/// Gets a binding to the set of all <see cref="AKL.Dynamics365.Entities.bru_interview_process"/> entities.
+		/// </summary>
+		public System.Linq.IQueryable<AKL.Dynamics365.Entities.bru_interview_process> bru_interview_processSet
+		{
+			get
+			{
+				return this.CreateQuery<AKL.Dynamics365.Entities.bru_interview_process>();
+			}
+		}
+		
+		/// <summary>
+		/// Gets a binding to the set of all <see cref="AKL.Dynamics365.Entities.bru_interviewquestion"/> entities.
+		/// </summary>
+		public System.Linq.IQueryable<AKL.Dynamics365.Entities.bru_interviewquestion> bru_interviewquestionSet
+		{
+			get
+			{
+				return this.CreateQuery<AKL.Dynamics365.Entities.bru_interviewquestion>();
+			}
+		}
+		
+		/// <summary>
 		/// Gets a binding to the set of all <see cref="AKL.Dynamics365.Entities.bru_jobapplication"/> entities.
 		/// </summary>
 		public System.Linq.IQueryable<AKL.Dynamics365.Entities.bru_jobapplication> bru_jobapplicationSet
@@ -11078,6 +20400,39 @@ namespace AKL.Dynamics365.Entities
 			get
 			{
 				return this.CreateQuery<AKL.Dynamics365.Entities.bru_jobapplication>();
+			}
+		}
+		
+		/// <summary>
+		/// Gets a binding to the set of all <see cref="AKL.Dynamics365.Entities.bru_jobrole"/> entities.
+		/// </summary>
+		public System.Linq.IQueryable<AKL.Dynamics365.Entities.bru_jobrole> bru_jobroleSet
+		{
+			get
+			{
+				return this.CreateQuery<AKL.Dynamics365.Entities.bru_jobrole>();
+			}
+		}
+		
+		/// <summary>
+		/// Gets a binding to the set of all <see cref="AKL.Dynamics365.Entities.bru_personalinterview"/> entities.
+		/// </summary>
+		public System.Linq.IQueryable<AKL.Dynamics365.Entities.bru_personalinterview> bru_personalinterviewSet
+		{
+			get
+			{
+				return this.CreateQuery<AKL.Dynamics365.Entities.bru_personalinterview>();
+			}
+		}
+		
+		/// <summary>
+		/// Gets a binding to the set of all <see cref="AKL.Dynamics365.Entities.bru_technicalinterview"/> entities.
+		/// </summary>
+		public System.Linq.IQueryable<AKL.Dynamics365.Entities.bru_technicalinterview> bru_technicalinterviewSet
+		{
+			get
+			{
+				return this.CreateQuery<AKL.Dynamics365.Entities.bru_technicalinterview>();
 			}
 		}
 		

@@ -32,8 +32,33 @@
           */
         "files": [
           {
-            "uniquename": "bru_/js/AKL_OpenProcessApp.js",
-            "file": "js\\AKL_OpenProcessApp.js",
+            "uniquename": "bru_/js/AKL_StartInterviewProcess.js",
+            "file": "js\\AKL_StartInterviewProcess.js",
+            "description": ""
+          },
+          {
+            "uniquename": "bru_/js/AKL_Contacts.js",
+            "file": "js\\AKL_Contacts.js",
+            "description": ""
+          },
+          {
+            "uniquename": "bru_/img/AKL_StartInterviewProcess_16.svg",
+            "file": "img\\AKL_StartInterviewProcess_16.svg",
+            "description": ""
+          },
+          {
+            "uniquename": "bru_/img/AKL_StartInterviewProcess_32.svg",
+            "file": "img\\AKL_StartInterviewProcess_32.svg",
+            "description": ""
+          },
+          {
+            "uniquename": "bru_/img/AKL_Applications_16.svg",
+            "file": "img\\AKL_Applications_16.svg",
+            "description": ""
+          },
+          {
+            "uniquename": "bru_/img/AKL_Applications_32.svg",
+            "file": "img\\AKL_Applications_32.svg",
             "description": ""
           },
           {
