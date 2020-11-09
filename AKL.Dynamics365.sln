@@ -7,6 +7,27 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKL.Dynamics365.WebResource
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKL.Dynamics365.Plugin", "AKL.Dynamics365.Plugin\AKL.Dynamics365.Plugin.csproj", "{D1BBBB04-C55D-454F-A827-1FC7E44A729A}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "dynamics_365_webresources", "dynamics_365_webresources\", "{C8D2D3E2-CC91-4794-AAA6-1752F1C49958}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_30724"
+		Debug.AspNetCompiler.PhysicalPath = "dynamics_365_webresources\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_30724\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_30724"
+		Release.AspNetCompiler.PhysicalPath = "dynamics_365_webresources\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_30724\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "30724"
+		SlnRelativePath = "dynamics_365_webresources\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +42,10 @@ Global
 		{D1BBBB04-C55D-454F-A827-1FC7E44A729A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1BBBB04-C55D-454F-A827-1FC7E44A729A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1BBBB04-C55D-454F-A827-1FC7E44A729A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8D2D3E2-CC91-4794-AAA6-1752F1C49958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D2D3E2-CC91-4794-AAA6-1752F1C49958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D2D3E2-CC91-4794-AAA6-1752F1C49958}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D2D3E2-CC91-4794-AAA6-1752F1C49958}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

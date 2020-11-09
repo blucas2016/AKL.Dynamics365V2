@@ -87,12 +87,12 @@
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
     <Content Include="Web.config" />
-    <Content Include="Webresources\htm\AKL_OpenProcessApp.html" />
     <Content Include="Webresources\img\AKL_StartInterviewProcess_16.svg" />
     <Content Include="Webresources\img\AKL_StartInterviewProcess_32.svg" />
     <Content Include="Webresources\img\AKL_Applications_16.svg" />
     <Content Include="Webresources\img\AKL_Applications_32.svg" />
     <Content Include="Webresources\js\AKL_Contacts.js" />
+    <Content Include="Webresources\js\AKL_D365_Invoke_REACT_SetUpJobInterview.js" />
     <Content Include="Webresources\js\AKL_StartInterviewProcess.js" />
   </ItemGroup>
   <ItemGroup>
@@ -117,7 +117,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Webresources\htm\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

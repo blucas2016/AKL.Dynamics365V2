@@ -62,8 +62,23 @@
             "description": ""
           },
           {
-            "uniquename": "bru_/htm/AKL_OpenProcessApp.html",
-            "file": "htm\\AKL_OpenProcessApp.html",
+            "uniquename": "bru_/js/AKL_D365_Invoke_REACT_SetUpJobInterview.js",
+            "file": "js\\AKL_D365_Invoke_REACT_SetUpJobInterview.js",
+            "description": ""
+          },
+          //{
+          //  "uniquename": "bru_/AKL_REACT_SetUpJobInterview.html",
+          //  "file": "..\\..\\dynamics_365_webresources\\build\\index.html",
+          //  "description": ""
+          //},
+          {
+            "uniquename": "bru_/css/AKL_REACT_SetUpJobInterview.css",
+            "file": "..\\..\\dynamics_365_webresources\\build\\css\\AKL_REACT_SetUpJobInterview.css",
+            "description": ""
+          },
+          {
+            "uniquename": "bru_/js/AKL_REACT_SetUpJobInterview.js",
+            "file": "..\\..\\dynamics_365_webresources\\build\\js\\AKL_REACT_SetUpJobInterview.js",
             "description": ""
           }
         ]
